@@ -1,0 +1,115 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AGPMS_application.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="server" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="dbname" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="username" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="confi_stat" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ondutycamera" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="maingate_camera" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="xampp_pathfile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\xampp\xampp-control.exe</Value>
+    </Setting>
+    <Setting Name="cust_msg_1stline" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="gsm_port" Type="System.String" Scope="User">
+      <Value Profile="(Default)">COM4</Value>
+    </Setting>
+    <Setting Name="arduino_port" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">COM3</Value>
+    </Setting>
+    <Setting Name="cust_msg_2ndline" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="last_use" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="guard_id" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="arduino_BaudRate" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9600</Value>
+    </Setting>
+    <Setting Name="TmpTemperature" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="line1_msg_entry" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hello Mr/Mrs </Value>
+    </Setting>
+    <Setting Name="line2_msg_entry" Type="System.String" Scope="User">
+      <Value Profile="(Default)">, Praise be Jesus and Mary! Your son/daughter</Value>
+    </Setting>
+    <Setting Name="line3_msg_entry" Type="System.String" Scope="User">
+      <Value Profile="(Default)">has entered the SRCB campus at</Value>
+    </Setting>
+    <Setting Name="line4_msg_entry" Type="System.String" Scope="User">
+      <Value Profile="(Default)">with a body temperature of </Value>
+    </Setting>
+    <Setting Name="line5_msg_entry" Type="System.String" Scope="User">
+      <Value Profile="(Default)">. Thank you.</Value>
+    </Setting>
+    <Setting Name="from_msg_entry" Type="System.String" Scope="User">
+      <Value Profile="(Default)">St. Rita's College of Balingasag</Value>
+    </Setting>
+    <Setting Name="Camera_status" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Current_UserExit" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Txt_msgentro_exit" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Txt_msg_afterStudent_name_exit" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Txt_msg_afterdate_exit" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Txt_endmsg_exit" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="guard_on_duty" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="toogle_restrict18" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="youngest" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Oldest" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="Txt_intro_restrict_msg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Praise be Jesus and Mary! Your child</Value>
+    </Setting>
+    <Setting Name="Txt_after_restrict_msg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">is not permitted to enter
+the school campus due to age restriction from ages</Value>
+    </Setting>
+    <Setting Name="Txt_end_restrict_msg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">and below.
+Please follow government pandemic protocals and keep your child safe.
+
+This is an automated message, please do not reply.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
