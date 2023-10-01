@@ -22,7 +22,7 @@ namespace AGPMS_application.Controller
         public string guard_id { set; get; }
         public string passcode { set; get; }
 
-        public void Alert(string msg, Form_Alert.enmType type)
+        public void Alert(string msg, Form_Alert.EnmType type)
         {
             Form_Alert frm = new Form_Alert();
             frm.showAlert(msg, type);

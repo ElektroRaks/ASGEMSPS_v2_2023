@@ -56,7 +56,7 @@ namespace AGPMS_application
             InitializeComponent();
         }
 
-        public void Alert(string msg, Form_Alert.enmType type)
+        public void Alert(string msg, Form_Alert.EnmType type)
         {
             Form_Alert frm = new Form_Alert();
             frm.showAlert(msg, type);
@@ -108,7 +108,7 @@ namespace AGPMS_application
                 }
                 catch (Exception)
                 {
-                    this.Alert("Camera device not found!", Form_Alert.enmType.Warning);
+                    this.Alert("Camera device not found!", Form_Alert.EnmType.Warning);
                 }
 
             }
@@ -189,7 +189,7 @@ namespace AGPMS_application
                         }
                         else
                         {
-                            this.Alert("Invalid QR code!", Form_Alert.enmType.Warning);
+                            this.Alert("Invalid QR code!", Form_Alert.EnmType.Warning);
                         }
                         Thread.Sleep(2000);
 
@@ -263,7 +263,7 @@ namespace AGPMS_application
                     Console.WriteLine("Personnel id not found in our record!");
                     reader.Close();
                     connection.Close();
-                    this.Alert("Personnel id not found in our record!", Form_Alert.enmType.Warning);
+                    this.Alert("Personnel id not found in our record!", Form_Alert.EnmType.Warning);
                     Thread.Sleep(1000);
                     scan_timer.Start();
                 }
@@ -332,7 +332,7 @@ namespace AGPMS_application
                     Console.WriteLine("Student id not found in our record!");
                     reader.Close();
                     connection.Close();
-                    this.Alert("Student id not found in our record!", Form_Alert.enmType.Warning);
+                    this.Alert("Student id not found in our record!", Form_Alert.EnmType.Warning);
                     Thread.Sleep(1000);
                     scan_timer.Start();
                 }
@@ -501,7 +501,7 @@ namespace AGPMS_application
             }
             catch (Exception ex)
             {
-                this.Alert("Error: "+ex.Message, Form_Alert.enmType.Warning);
+                this.Alert("Error: "+ex.Message, Form_Alert.EnmType.Warning);
             }
         }
 

@@ -2,15 +2,8 @@
 using AGPMS_application.Properties;
 using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AGPMS_application
@@ -118,7 +111,7 @@ namespace AGPMS_application
 
 
         // Left side at the buttom show message
-        public void Alert(string msg, Form_Alert.enmType type)
+        public void Alert(string msg, Form_Alert.EnmType type)
         {
             Form_Alert frm = new Form_Alert();
             frm.showAlert(msg, type);
@@ -166,7 +159,7 @@ namespace AGPMS_application
             }
             catch (Exception ex)
             {
-                this.Alert("Error: " + ex.Message, Form_Alert.enmType.Warning);
+                this.Alert("Error: " + ex.Message, Form_Alert.EnmType.Warning);
             }
         }
        

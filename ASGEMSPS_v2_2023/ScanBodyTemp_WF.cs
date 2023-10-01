@@ -1,16 +1,8 @@
 ﻿using AGPMS_application.Controller;
 using AGPMS_application.Properties;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.IO;
 using System.IO.Ports;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using AGPMS_application.Model;
@@ -57,7 +49,7 @@ namespace AGPMS_application
             Exit_monitor_Controller.instance.ActiveQrTxtboxFocus();
         }
 
-        public void Alert(string msg, Form_Alert.enmType type)
+        public void Alert(string msg, Form_Alert.EnmType type)
         {
             Form_Alert frm = new Form_Alert();
             frm.showAlert(msg, type);
@@ -100,7 +92,7 @@ namespace AGPMS_application
             counter.Text = countdown.ToString();
             if (countdown == 3)
             {
-                this.Alert("Login suceessfully, Welcome to SRCB " + lbl_Name.Text, Form_Alert.enmType.Success);
+                this.Alert("Login suceessfully, Welcome to SRCB " + lbl_Name.Text, Form_Alert.EnmType.Success);
             }
             if (countdown == 0)
             {

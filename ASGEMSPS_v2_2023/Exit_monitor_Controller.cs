@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using USB_Barcode_Scanner;
 using AGPMS_application.Properties;
 using MySql.Data.MySqlClient;
 using AGPMS_application.Model;
@@ -31,7 +24,7 @@ namespace AGPMS_application
             InitializeComponent();
             instance = this; 
         }
-        public void Alert(string msg, Form_Alert.enmType type)
+        public void Alert(string msg, Form_Alert.EnmType type)
         {
             Form_Alert frm = new Form_Alert();
             frm.showAlert(msg, type);
@@ -92,7 +85,7 @@ namespace AGPMS_application
             {
                 txt_QRfocusfieldhidden.Text = string.Empty;
                 Interval_activate_text_change.Stop();
-                this.Alert("QR scan Error: " + ex.Message, Form_Alert.enmType.Error);
+                this.Alert("QR scan Error: " + ex.Message, Form_Alert.EnmType.Error);
             }
         }
 
@@ -172,7 +165,7 @@ namespace AGPMS_application
             catch (Exception ex)
             {
                 Console.WriteLine("error: " + ex.Message);
-                this.Alert("Error! " + ex.Message, Form_Alert.enmType.Warning);
+                this.Alert("Error! " + ex.Message, Form_Alert.EnmType.Warning);
             }
             // Scan_timer.Start();
 
@@ -401,7 +394,7 @@ namespace AGPMS_application
             }
             catch (Exception ex)
             {
-                this.Alert(ex.Message, Form_Alert.enmType.Error);
+                this.Alert(ex.Message, Form_Alert.EnmType.Error);
             }
         }
 

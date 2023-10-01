@@ -414,5 +414,6 @@
   <ItemGroup>
     <None Include="Resources\error2.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

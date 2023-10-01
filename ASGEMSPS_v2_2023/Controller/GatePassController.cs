@@ -26,7 +26,7 @@ namespace AGPMS_application.Controller
         string Usertemp;
 
 
-        public void Alert(string msg, Form_Alert.enmType type)
+        public void Alert(string msg, Form_Alert.EnmType type)
         {
             Form_Alert frm = new Form_Alert();
             frm.showAlert(msg, type);
@@ -492,7 +492,7 @@ namespace AGPMS_application.Controller
             }
             catch (Exception ex)
             {
-                this.Alert(ex.Message, Form_Alert.enmType.Error);
+                this.Alert(ex.Message, Form_Alert.EnmType.Error);
             }
         }
 

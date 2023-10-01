@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using AForge.Video;
 using AForge.Video.DirectShow;
@@ -15,7 +9,6 @@ using AGPMS_application.Model;
 using AGPMS_application.Properties;
 using AGPMS_application.Controller;
 using System.Threading;
-using System.IO;
 using System.IO.Ports;
 
 namespace AGPMS_application
@@ -66,7 +59,7 @@ namespace AGPMS_application
         
 
         // Left side at the buttom show message
-        public void Alert(string msg, Form_Alert.enmType type)
+        public void Alert(string msg, Form_Alert.EnmType type)
         {
             Form_Alert frm = new Form_Alert();
             frm.showAlert(msg, type);
@@ -94,7 +87,7 @@ namespace AGPMS_application
                 }
                 catch (Exception)
                 {
-                    this.Alert("Camera device not found!", Form_Alert.enmType.Warning);
+                    this.Alert("Camera device not found!", Form_Alert.EnmType.Warning);
                     Exit_monitor_Controller.instance.ActiveQrTxtboxFocus();
                 }
 
@@ -161,7 +154,7 @@ namespace AGPMS_application
                         }
                         else
                         {
-                            this.Alert("Invalid QR code!", Form_Alert.enmType.Warning);
+                            this.Alert("Invalid QR code!", Form_Alert.EnmType.Warning);
                             Exit_monitor_Controller.instance.ActiveQrTxtboxFocus();
                         }
                         Thread.Sleep(2000);
@@ -221,7 +214,7 @@ namespace AGPMS_application
                     int statuser = Convert.ToInt32(inactivestat);
                     if (statuser == 0)
                     {
-                        this.Alert("Invalid QR code!", Form_Alert.enmType.Warning);
+                        this.Alert("Invalid QR code!", Form_Alert.EnmType.Warning);
                         Scan_timer.Start();
                     }
                     else
@@ -252,7 +245,7 @@ namespace AGPMS_application
                             if (age > old_age)
                             {
                                 Console.WriteLine("Above "+ old_age + " is not allowed to enter!");
-                                this.Alert("Sorry, above age " + old_age + " is not allowed to enter!", Form_Alert.enmType.Warning);
+                                this.Alert("Sorry, above age " + old_age + " is not allowed to enter!", Form_Alert.EnmType.Warning);
                                 Scan_timer.Start();
                             }
                             else
@@ -282,7 +275,7 @@ namespace AGPMS_application
                     Console.WriteLine("Personnel id is not found in database record!");
                     reader.Close();
                     connection.Close();
-                    this.Alert("Personnel id is not found in database record!", Form_Alert.enmType.Warning);
+                    this.Alert("Personnel id is not found in database record!", Form_Alert.EnmType.Warning);
                     Thread.Sleep(1000);
                     Scan_timer.Start();
                     Exit_monitor_Controller.instance.ActiveQrTxtboxFocus();
@@ -292,7 +285,7 @@ namespace AGPMS_application
             catch (Exception ex)
             {
                 Console.WriteLine("error: " + ex.Message);
-                this.Alert("Error! " + ex.Message, Form_Alert.enmType.Warning);
+                this.Alert("Error! " + ex.Message, Form_Alert.EnmType.Warning);
                 Exit_monitor_Controller.instance.ActiveQrTxtboxFocus();
             }
         }
@@ -336,7 +329,7 @@ namespace AGPMS_application
                     int statuser = Convert.ToInt32(inactivestat);
                     if (statuser == 0)
                     {
-                        this.Alert("Invalid QR code!", Form_Alert.enmType.Warning);
+                        this.Alert("Invalid QR code!", Form_Alert.EnmType.Warning);
                         Scan_timer.Start();
                     }
                     else
@@ -367,7 +360,7 @@ namespace AGPMS_application
                             if (age < young_age)
                             {
                                 Console.WriteLine("Below age"+ young_age + " is not allowed to enter!");
-                                this.Alert("Sorry, below age " + young_age + " is not allowed to enter!", Form_Alert.enmType.Warning);
+                                this.Alert("Sorry, below age " + young_age + " is not allowed to enter!", Form_Alert.EnmType.Warning);
                                 Send_sms_age_restriction(fullname, mobile_number);
                                 Scan_timer.Start();
                             }
@@ -397,7 +390,7 @@ namespace AGPMS_application
                     Console.WriteLine("Student id is not found in database record!");
                     reader.Close();
                     connection.Close();
-                    this.Alert("Student id is not found in database record!", Form_Alert.enmType.Warning);
+                    this.Alert("Student id is not found in database record!", Form_Alert.EnmType.Warning);
                     Thread.Sleep(1000);
                     Scan_timer.Start();
                     Exit_monitor_Controller.instance.ActiveQrTxtboxFocus();
@@ -407,7 +400,7 @@ namespace AGPMS_application
             catch (Exception ex)
             {
                 Console.WriteLine("error: " + ex.Message);
-                this.Alert("Error! " + ex.Message, Form_Alert.enmType.Warning);
+                this.Alert("Error! " + ex.Message, Form_Alert.EnmType.Warning);
                 Exit_monitor_Controller.instance.ActiveQrTxtboxFocus();
             }
         }
@@ -448,17 +441,17 @@ namespace AGPMS_application
                 var response = sp.ReadExisting();
                 if (response.Contains("ERROR"))
                 {
-                    this.Alert("Send sms failed!", Form_Alert.enmType.Warning);
+                    this.Alert("Send sms failed!", Form_Alert.EnmType.Warning);
                 }
                 else
                 {
-                    this.Alert("Send sms success", Form_Alert.enmType.Success);
+                    this.Alert("Send sms success", Form_Alert.EnmType.Success);
                 }
                 sp.Close();
             }
             catch (Exception ex)
             {
-                this.Alert(ex.Message + " Can't send a message!", Form_Alert.enmType.Error);
+                this.Alert(ex.Message + " Can't send a message!", Form_Alert.EnmType.Error);
             }
         }
         // #END# Send msg for age restriction
@@ -505,7 +498,7 @@ namespace AGPMS_application
             }
             catch (Exception ex)
             {
-                this.Alert(ex.Message, Form_Alert.enmType.Error);
+                this.Alert(ex.Message, Form_Alert.EnmType.Error);
             }
             
         }
@@ -557,7 +550,7 @@ namespace AGPMS_application
             }
             catch (Exception ex)
             {
-                this.Alert("Action Store Error! "+ex.Message, Form_Alert.enmType.Warning);
+                this.Alert("Action Store Error! "+ex.Message, Form_Alert.EnmType.Warning);
                 Exit_monitor_Controller.instance.ActiveQrTxtboxFocus();
             }
         }

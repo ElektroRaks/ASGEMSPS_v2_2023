@@ -30,7 +30,7 @@ namespace AGPMS_application
             ShadowForm1.SetShadowForm(this);
         }
 
-        public void Alert(string msg, Form_Alert.enmType type)
+        public void Alert(string msg, Form_Alert.EnmType type)
         {
             Form_Alert frm = new Form_Alert();
             frm.showAlert(msg, type);
@@ -60,7 +60,7 @@ namespace AGPMS_application
                 }
                 catch (Exception ex)
                 {
-                    this.Alert(ex.Message, Form_Alert.enmType.Warning);
+                    this.Alert(ex.Message, Form_Alert.EnmType.Warning);
                 }
             }
 
@@ -79,7 +79,7 @@ namespace AGPMS_application
                 }
                 catch (Exception ex)
                 {
-                    this.Alert(ex.Message, Form_Alert.enmType.Warning);
+                    this.Alert(ex.Message, Form_Alert.EnmType.Warning);
                 }
             }
             if (progressBar.Value == 79)
@@ -103,7 +103,7 @@ namespace AGPMS_application
             try
             {
                 connect.conn.Open();
-                this.Alert("System are connected to server", Form_Alert.enmType.Welcome);
+                this.Alert("System are connected to server", Form_Alert.EnmType.Welcome);
                 connect.conn.Close();
                 if (Settings.Default.last_use.ToString() != DateTime.Now.ToString("MM/dd/yyyy"))
                 {
@@ -118,7 +118,7 @@ namespace AGPMS_application
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                this.Alert(ex.Message, Form_Alert.enmType.Error);
+                this.Alert(ex.Message, Form_Alert.EnmType.Error);
                 DBconfig_WF config = new DBconfig_WF();
                 config.Show();
                 this.Hide();
@@ -145,7 +145,7 @@ namespace AGPMS_application
                     int statuser = Convert.ToInt32(inactivestat);
                     if (statuser == 0)
                     {
-                        this.Alert("Invalid QR code!", Form_Alert.enmType.Warning);
+                        this.Alert("Invalid QR code!", Form_Alert.EnmType.Warning);
                     }
                     else
                     {
@@ -162,7 +162,7 @@ namespace AGPMS_application
             catch (Exception ex)
             {
                 Console.WriteLine("error: " + ex.Message);
-                this.Alert("Error! " + ex.Message, Form_Alert.enmType.Warning);
+                this.Alert("Error! " + ex.Message, Form_Alert.EnmType.Warning);
             }
         }
         

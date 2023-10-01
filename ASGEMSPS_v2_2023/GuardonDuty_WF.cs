@@ -7,13 +7,7 @@ using AGPMS_application.Controller;
 using AGPMS_application.Properties;
 using System.Threading;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 
@@ -57,7 +51,7 @@ namespace AGPMS_application
         }
 
 
-        public void Alert(string msg, Form_Alert.enmType type)
+        public void Alert(string msg, Form_Alert.EnmType type)
         {
             Form_Alert frm = new Form_Alert();
             frm.showAlert(msg, type);
@@ -86,8 +80,8 @@ namespace AGPMS_application
                 }
                 catch (Exception)
                 {
-                    this.Alert("Camera device not found!", Form_Alert.enmType.Warning);
-                    this.Alert("Please ckeck camera connection!", Form_Alert.enmType.Warning);
+                    this.Alert("Camera device not found!", Form_Alert.EnmType.Warning);
+                    this.Alert("Please ckeck camera connection!", Form_Alert.EnmType.Warning);
                 }
 
             }
@@ -216,7 +210,7 @@ namespace AGPMS_application
                     Console.WriteLine("Passcode not match!");
                     reader.Close();
                     connection.Close();
-                    this.Alert("Access Denied - Invalid QRcode Passcode!", Form_Alert.enmType.Warning);
+                    this.Alert("Access Denied - Invalid QRcode Passcode!", Form_Alert.EnmType.Warning);
                     Scan_timer.Start();
                     //guardon.Show();
                     Thread.Sleep(1000);
@@ -226,7 +220,7 @@ namespace AGPMS_application
             catch (Exception ex)
             {
                 Console.WriteLine("error: " + ex.Message);
-                this.Alert("Error! " + ex.Message, Form_Alert.enmType.Warning);
+                this.Alert("Error! " + ex.Message, Form_Alert.EnmType.Warning);
             }
 
 

@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO.Ports;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using AForge.Video.DirectShow;
 using AGPMS_application.Properties;
@@ -30,7 +23,7 @@ namespace AGPMS_application
             intance = this;
         }
 
-        public void Alert(string msg, Form_Alert.enmType type)
+        public void Alert(string msg, Form_Alert.EnmType type)
         {
             Form_Alert frm = new Form_Alert();
             frm.showAlert(msg, type);
@@ -86,7 +79,7 @@ namespace AGPMS_application
             }
             catch (Exception)
             {
-                    this.Alert("Camera device not found!", Form_Alert.enmType.Warning);
+                    this.Alert("Camera device not found!", Form_Alert.EnmType.Warning);
             }
         }
 
@@ -168,15 +161,15 @@ namespace AGPMS_application
             string mobile_num = Txt_moblie_number.Text;
                 if (mobile_num=="")
                 {
-                    this.Alert("Please input your mobile number.", Form_Alert.enmType.Warning);
+                    this.Alert("Please input your mobile number.", Form_Alert.EnmType.Warning);
                 }
                 else if(mobile_num.Length>10)
                 {
-                    this.Alert("Mobile number is above 10 characters", Form_Alert.enmType.Warning);
+                    this.Alert("Mobile number is above 10 characters", Form_Alert.EnmType.Warning);
                 }
                 else if (mobile_num.Length < 10)
                 {
-                    this.Alert("Mobile number is below 10 characters", Form_Alert.enmType.Warning);
+                    this.Alert("Mobile number is below 10 characters", Form_Alert.EnmType.Warning);
                 }
                 else
                 {
@@ -210,17 +203,17 @@ namespace AGPMS_application
                 var response = sp.ReadExisting();
                 if (response.Contains("ERROR"))
                 {
-                    this.Alert("Send sms failed!", Form_Alert.enmType.Warning);
+                    this.Alert("Send sms failed!", Form_Alert.EnmType.Warning);
                 }
                 else
                 {
-                    this.Alert("Send sms success", Form_Alert.enmType.Success);
+                    this.Alert("Send sms success", Form_Alert.EnmType.Success);
                 }
                 sp.Close();
             }
             catch (Exception ex)
             {
-                this.Alert(ex.Message+" Can't send a message!", Form_Alert.enmType.Error);
+                this.Alert(ex.Message+" Can't send a message!", Form_Alert.EnmType.Error);
             }
            
         }
@@ -339,7 +332,7 @@ namespace AGPMS_application
            
             if (System.Text.RegularExpressions.Regex.IsMatch(Txt_moblie_number.Text, "[^0-9]"))
             {
-                this.Alert("Please enter only numbers.", Form_Alert.enmType.Warning);
+                this.Alert("Please enter only numbers.", Form_Alert.EnmType.Warning);
                 Txt_moblie_number.Text = Txt_moblie_number.Text.Remove(Txt_moblie_number.Text.Length - 1);
             }
         }
@@ -453,7 +446,7 @@ namespace AGPMS_application
         {
             if (System.Text.RegularExpressions.Regex.IsMatch(InputNum.Text, "[^0-9]"))
             {
-                this.Alert("Please enter mobile number.", Form_Alert.enmType.Warning);
+                this.Alert("Please enter mobile number.", Form_Alert.EnmType.Warning);
                 Txt_moblie_number.Text = InputNum.Text.Remove(InputNum.Text.Length - 1);
             }
         }
@@ -463,15 +456,15 @@ namespace AGPMS_application
             string mobile_num = InputNum.Text;
             if (mobile_num == "")
             {
-                this.Alert("Please input your mobile number.", Form_Alert.enmType.Warning);
+                this.Alert("Please input your mobile number.", Form_Alert.EnmType.Warning);
             }
             else if (mobile_num.Length > 10)
             {
-                this.Alert("Mobile number is above 10 characters", Form_Alert.enmType.Warning);
+                this.Alert("Mobile number is above 10 characters", Form_Alert.EnmType.Warning);
             }
             else if (mobile_num.Length < 10)
             {
-                this.Alert("Mobile number is below 10 characters", Form_Alert.enmType.Warning);
+                this.Alert("Mobile number is below 10 characters", Form_Alert.EnmType.Warning);
             }
             else
             {
@@ -505,17 +498,17 @@ namespace AGPMS_application
                 var response = sp.ReadExisting();
                 if (response.Contains("ERROR"))
                 {
-                    this.Alert("Send sms failed!", Form_Alert.enmType.Warning);
+                    this.Alert("Send sms failed!", Form_Alert.EnmType.Warning);
                 }
                 else
                 {
-                    this.Alert("Send sms success", Form_Alert.enmType.Success);
+                    this.Alert("Send sms success", Form_Alert.EnmType.Success);
                 }
                 sp.Close();
             }
             catch (Exception ex)
             {
-                this.Alert(ex.Message + " Can't send a message!", Form_Alert.enmType.Error);
+                this.Alert(ex.Message + " Can't send a message!", Form_Alert.EnmType.Error);
             }
 
         }
