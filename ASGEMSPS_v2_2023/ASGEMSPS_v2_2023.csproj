@@ -243,12 +243,6 @@
     <Compile Include="SplashScreen_WF.Designer.cs">
       <DependentUpon>SplashScreen_WF.cs</DependentUpon>
     </Compile>
-    <Compile Include="TempScanner_Control.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="TempScanner_Control.Designer.cs">
-      <DependentUpon>TempScanner_Control.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="DBconfig_WF.resx">
       <DependentUpon>DBconfig_WF.cs</DependentUpon>
     </EmbeddedResource>
@@ -291,9 +285,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen_WF.resx">
       <DependentUpon>SplashScreen_WF.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TempScanner_Control.resx">
-      <DependentUpon>TempScanner_Control.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
