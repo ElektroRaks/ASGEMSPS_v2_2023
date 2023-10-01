@@ -97,7 +97,7 @@
             this.Lbl_user_type.ForeColor = System.Drawing.Color.Silver;
             this.Lbl_user_type.Location = new System.Drawing.Point(71, 18);
             this.Lbl_user_type.Name = "Lbl_user_type";
-            this.Lbl_user_type.Size = new System.Drawing.Size(82, 17);
+            this.Lbl_user_type.Size = new System.Drawing.Size(101, 22);
             this.Lbl_user_type.TabIndex = 29;
             this.Lbl_user_type.Text = "Personnel";
             // 
@@ -136,7 +136,7 @@
             this.Lbl_user_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Lbl_user_id.Location = new System.Drawing.Point(20, 77);
             this.Lbl_user_id.Name = "Lbl_user_id";
-            this.Lbl_user_id.Size = new System.Drawing.Size(40, 17);
+            this.Lbl_user_id.Size = new System.Drawing.Size(49, 22);
             this.Lbl_user_id.TabIndex = 12;
             this.Lbl_user_id.Text = "- - - -";
             // 
@@ -147,7 +147,7 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label9.Location = new System.Drawing.Point(20, 238);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(73, 17);
+            this.label9.Size = new System.Drawing.Size(92, 22);
             this.label9.TabIndex = 12;
             this.label9.Text = "Time in : ";
             // 
@@ -158,7 +158,7 @@
             this.lbl_timein.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lbl_timein.Location = new System.Drawing.Point(20, 260);
             this.lbl_timein.Name = "lbl_timein";
-            this.lbl_timein.Size = new System.Drawing.Size(40, 17);
+            this.lbl_timein.Size = new System.Drawing.Size(49, 22);
             this.lbl_timein.TabIndex = 12;
             this.lbl_timein.Text = "- - - -";
             // 
@@ -169,7 +169,7 @@
             this.Lbl_dept_type.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Lbl_dept_type.Location = new System.Drawing.Point(20, 183);
             this.Lbl_dept_type.Name = "Lbl_dept_type";
-            this.Lbl_dept_type.Size = new System.Drawing.Size(107, 17);
+            this.Lbl_dept_type.Size = new System.Drawing.Size(135, 22);
             this.Lbl_dept_type.TabIndex = 12;
             this.Lbl_dept_type.Text = "Department : ";
             // 
@@ -180,7 +180,7 @@
             this.Lbl_department.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Lbl_department.Location = new System.Drawing.Point(20, 205);
             this.Lbl_department.Name = "Lbl_department";
-            this.Lbl_department.Size = new System.Drawing.Size(40, 17);
+            this.Lbl_department.Size = new System.Drawing.Size(49, 22);
             this.Lbl_department.TabIndex = 12;
             this.Lbl_department.Text = "- - - -";
             // 
@@ -191,7 +191,7 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label3.Location = new System.Drawing.Point(19, 118);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 17);
+            this.label3.Size = new System.Drawing.Size(79, 22);
             this.label3.TabIndex = 12;
             this.label3.Text = "Name : ";
             // 
@@ -202,7 +202,7 @@
             this.lbl_name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lbl_name.Location = new System.Drawing.Point(20, 141);
             this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(40, 17);
+            this.lbl_name.Size = new System.Drawing.Size(49, 22);
             this.lbl_name.TabIndex = 12;
             this.lbl_name.Text = "- - - -";
             // 
@@ -213,7 +213,7 @@
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label8.Location = new System.Drawing.Point(19, 18);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 17);
+            this.label8.Size = new System.Drawing.Size(69, 22);
             this.label8.TabIndex = 12;
             this.label8.Text = "User : ";
             // 
@@ -224,7 +224,7 @@
             this.labelname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.labelname.Location = new System.Drawing.Point(19, 54);
             this.labelname.Name = "labelname";
-            this.labelname.Size = new System.Drawing.Size(61, 17);
+            this.labelname.Size = new System.Drawing.Size(76, 22);
             this.labelname.TabIndex = 12;
             this.labelname.Text = "ID.NO :";
             // 
@@ -237,7 +237,7 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label7.Location = new System.Drawing.Point(572, 47);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(196, 20);
+            this.label7.Size = new System.Drawing.Size(238, 25);
             this.label7.TabIndex = 14;
             this.label7.Text = "BODY TEMPERATURE";
             this.label7.UseWaitCursor = true;
@@ -281,7 +281,7 @@
             this.lbl_abovenormal.ForeColor = System.Drawing.Color.LightGray;
             this.lbl_abovenormal.Location = new System.Drawing.Point(586, 195);
             this.lbl_abovenormal.Name = "lbl_abovenormal";
-            this.lbl_abovenormal.Size = new System.Drawing.Size(149, 20);
+            this.lbl_abovenormal.Size = new System.Drawing.Size(184, 25);
             this.lbl_abovenormal.TabIndex = 16;
             this.lbl_abovenormal.Text = "ABOVE NORMAL";
             // 
@@ -294,14 +294,14 @@
             this.lbl_nomal.ForeColor = System.Drawing.Color.LightGray;
             this.lbl_nomal.Location = new System.Drawing.Point(586, 156);
             this.lbl_nomal.Name = "lbl_nomal";
-            this.lbl_nomal.Size = new System.Drawing.Size(83, 20);
+            this.lbl_nomal.Size = new System.Drawing.Size(103, 25);
             this.lbl_nomal.TabIndex = 17;
             this.lbl_nomal.Text = "NORMAL";
             // 
             // Cb_cameraList
             // 
             this.Cb_cameraList.BackColor = System.Drawing.Color.Transparent;
-            this.Cb_cameraList.BorderColor = System.Drawing.Color.MediumSeaGreen;
+            this.Cb_cameraList.BorderColor = System.Drawing.Color.Black;
             this.Cb_cameraList.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.Cb_cameraList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.Cb_cameraList.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -352,7 +352,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label2.Location = new System.Drawing.Point(84, 321);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 18);
+            this.label2.Size = new System.Drawing.Size(208, 23);
             this.label2.TabIndex = 22;
             this.label2.Text = "QR CODE SCANNER";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -389,14 +389,14 @@
             this.Lbl_temp2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_temp2.Location = new System.Drawing.Point(596, 86);
             this.Lbl_temp2.Name = "Lbl_temp2";
-            this.Lbl_temp2.Size = new System.Drawing.Size(155, 55);
+            this.Lbl_temp2.Size = new System.Drawing.Size(193, 70);
             this.Lbl_temp2.TabIndex = 26;
             this.Lbl_temp2.Text = "00.00";
             this.Lbl_temp2.TextChanged += new System.EventHandler(this.Lbl_temp2_TextChanged);
             // 
             // Entry_monitor_Controller
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.Lbl_temp2);

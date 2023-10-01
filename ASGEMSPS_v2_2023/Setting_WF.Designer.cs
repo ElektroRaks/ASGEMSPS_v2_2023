@@ -94,6 +94,9 @@
             this.cb_port_arduinoList = new Guna.UI2.WinForms.Guna2ComboBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.InputNum = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Btn_send_restric_msg = new Guna.UI2.WinForms.Guna2Button();
+            this.label24 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.Alert2 = new System.Windows.Forms.Label();
             this.Message_age_restriction = new System.Windows.Forms.RichTextBox();
@@ -118,9 +121,6 @@
             this.Btn_close = new Guna.UI2.WinForms.Guna2Button();
             this.Lbl_openstat = new System.Windows.Forms.Label();
             this.Alert_timer2_hide = new System.Windows.Forms.Timer(this.components);
-            this.InputNum = new Guna.UI2.WinForms.Guna2TextBox();
-            this.Btn_send_restric_msg = new Guna.UI2.WinForms.Guna2Button();
-            this.label24 = new System.Windows.Forms.Label();
             this.guna2GroupBox4.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.Message_Customize.SuspendLayout();
@@ -140,7 +140,6 @@
             // guna2DragControl1
             // 
             this.guna2DragControl1.TargetControl = this;
-            //this.guna2DragControl1.UseTransparentDrag = true;
             // 
             // guna2GroupBox4
             // 
@@ -183,7 +182,7 @@
             this.label14.ForeColor = System.Drawing.Color.SeaGreen;
             this.label14.Location = new System.Drawing.Point(839, 242);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(107, 15);
+            this.label14.Size = new System.Drawing.Size(137, 20);
             this.label14.TabIndex = 7;
             this.label14.Text = "Character: 0/1920";
             // 
@@ -195,7 +194,7 @@
             this.label15.ForeColor = System.Drawing.Color.Black;
             this.label15.Location = new System.Drawing.Point(275, 470);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(98, 20);
+            this.label15.Size = new System.Drawing.Size(121, 25);
             this.label15.TabIndex = 2;
             this.label15.Text = "{DateTime}";
             // 
@@ -207,7 +206,7 @@
             this.label16.ForeColor = System.Drawing.Color.Green;
             this.label16.Location = new System.Drawing.Point(731, 544);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(119, 20);
+            this.label16.Size = new System.Drawing.Size(147, 25);
             this.label16.TabIndex = 2;
             this.label16.Text = "Save success";
             this.label16.Visible = false;
@@ -220,7 +219,7 @@
             this.label17.ForeColor = System.Drawing.Color.Black;
             this.label17.Location = new System.Drawing.Point(616, 470);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(123, 20);
+            this.label17.Size = new System.Drawing.Size(151, 25);
             this.label17.TabIndex = 2;
             this.label17.Text = "{Temperature}";
             // 
@@ -232,7 +231,7 @@
             this.label18.ForeColor = System.Drawing.Color.Black;
             this.label18.Location = new System.Drawing.Point(611, 374);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(134, 20);
+            this.label18.Size = new System.Drawing.Size(162, 25);
             this.label18.TabIndex = 2;
             this.label18.Text = "{Student name}";
             // 
@@ -446,7 +445,7 @@
             this.label19.ForeColor = System.Drawing.Color.Black;
             this.label19.Location = new System.Drawing.Point(560, 246);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(201, 20);
+            this.label19.Size = new System.Drawing.Size(245, 25);
             this.label19.TabIndex = 2;
             this.label19.Text = "Try to send to my phone";
             // 
@@ -458,7 +457,7 @@
             this.label20.ForeColor = System.Drawing.Color.Black;
             this.label20.Location = new System.Drawing.Point(18, 91);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(81, 20);
+            this.label20.Size = new System.Drawing.Size(100, 25);
             this.label20.TabIndex = 2;
             this.label20.Text = "Message";
             // 
@@ -470,7 +469,7 @@
             this.label21.ForeColor = System.Drawing.Color.Black;
             this.label21.Location = new System.Drawing.Point(250, 374);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(123, 20);
+            this.label21.Size = new System.Drawing.Size(150, 25);
             this.label21.TabIndex = 2;
             this.label21.Text = "{Parent name}";
             // 
@@ -512,7 +511,7 @@
             this.label22.ForeColor = System.Drawing.Color.Black;
             this.label22.Location = new System.Drawing.Point(18, 316);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(145, 20);
+            this.label22.Size = new System.Drawing.Size(177, 25);
             this.label22.TabIndex = 2;
             this.label22.Text = "Create message:";
             // 
@@ -571,7 +570,7 @@
             this.guna2TextBox10.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox10.HoverState.Parent = this.guna2TextBox10;
             this.guna2TextBox10.Location = new System.Drawing.Point(742, 735);
-            this.guna2TextBox10.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.guna2TextBox10.Margin = new System.Windows.Forms.Padding(6);
             this.guna2TextBox10.Name = "guna2TextBox10";
             this.guna2TextBox10.PasswordChar = '\0';
             this.guna2TextBox10.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -592,7 +591,7 @@
             this.label23.ForeColor = System.Drawing.Color.Black;
             this.label23.Location = new System.Drawing.Point(18, 246);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(65, 20);
+            this.label23.Size = new System.Drawing.Size(80, 25);
             this.label23.TabIndex = 2;
             this.label23.Text = "From : ";
             // 
@@ -607,18 +606,19 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tabControl1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.ItemSize = new System.Drawing.Size(106, 30);
-            this.tabControl1.Location = new System.Drawing.Point(0, 49);
+            this.tabControl1.Location = new System.Drawing.Point(0, 60);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.ShowToolTips = true;
-            this.tabControl1.Size = new System.Drawing.Size(1011, 609);
+            this.tabControl1.Size = new System.Drawing.Size(1348, 750);
             this.tabControl1.TabIndex = 7;
             // 
             // Message_Customize
             // 
-            this.Message_Customize.BackColor = System.Drawing.SystemColors.Control;
+            this.Message_Customize.BackColor = System.Drawing.Color.White;
             this.Message_Customize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Message_Customize.Controls.Add(this.Char_count);
             this.Message_Customize.Controls.Add(this.Alert_success2);
@@ -644,21 +644,23 @@
             this.Message_Customize.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Message_Customize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Message_Customize.Location = new System.Drawing.Point(4, 34);
+            this.Message_Customize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Message_Customize.Name = "Message_Customize";
-            this.Message_Customize.Padding = new System.Windows.Forms.Padding(3);
-            this.Message_Customize.Size = new System.Drawing.Size(1003, 571);
+            this.Message_Customize.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Message_Customize.Size = new System.Drawing.Size(1340, 712);
             this.Message_Customize.TabIndex = 0;
             this.Message_Customize.Text = "Message Customize";
             // 
             // Char_count
             // 
             this.Char_count.AutoSize = true;
-            this.Char_count.BackColor = System.Drawing.SystemColors.Control;
+            this.Char_count.BackColor = System.Drawing.Color.White;
             this.Char_count.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Char_count.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Char_count.Location = new System.Drawing.Point(795, 169);
+            this.Char_count.Location = new System.Drawing.Point(1060, 208);
+            this.Char_count.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Char_count.Name = "Char_count";
-            this.Char_count.Size = new System.Drawing.Size(155, 16);
+            this.Char_count.Size = new System.Drawing.Size(197, 19);
             this.Char_count.TabIndex = 24;
             this.Char_count.Text = "Characters : 0   Words: 0";
             // 
@@ -668,9 +670,10 @@
             this.Alert_success2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(188)))), ((int)(((byte)(212)))));
             this.Alert_success2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Alert_success2.ForeColor = System.Drawing.Color.White;
-            this.Alert_success2.Location = new System.Drawing.Point(670, 167);
+            this.Alert_success2.Location = new System.Drawing.Point(893, 206);
+            this.Alert_success2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Alert_success2.Name = "Alert_success2";
-            this.Alert_success2.Size = new System.Drawing.Size(119, 20);
+            this.Alert_success2.Size = new System.Drawing.Size(147, 25);
             this.Alert_success2.TabIndex = 11;
             this.Alert_success2.Text = "Save success";
             this.Alert_success2.Visible = false;
@@ -694,8 +697,8 @@
             this.Txt_msg_afterdate.ForeColor = System.Drawing.Color.Black;
             this.Txt_msg_afterdate.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_msg_afterdate.HoverState.Parent = this.Txt_msg_afterdate;
-            this.Txt_msg_afterdate.Location = new System.Drawing.Point(29, 403);
-            this.Txt_msg_afterdate.Margin = new System.Windows.Forms.Padding(6);
+            this.Txt_msg_afterdate.Location = new System.Drawing.Point(39, 496);
+            this.Txt_msg_afterdate.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Txt_msg_afterdate.Multiline = true;
             this.Txt_msg_afterdate.Name = "Txt_msg_afterdate";
             this.Txt_msg_afterdate.PasswordChar = '\0';
@@ -703,7 +706,7 @@
             this.Txt_msg_afterdate.PlaceholderText = "After date and time";
             this.Txt_msg_afterdate.SelectedText = "";
             this.Txt_msg_afterdate.ShadowDecoration.Parent = this.Txt_msg_afterdate;
-            this.Txt_msg_afterdate.Size = new System.Drawing.Size(456, 72);
+            this.Txt_msg_afterdate.Size = new System.Drawing.Size(608, 89);
             this.Txt_msg_afterdate.TabIndex = 20;
             this.Txt_msg_afterdate.UseSystemPasswordChar = true;
             this.Txt_msg_afterdate.TextChanged += new System.EventHandler(this.Txt_msg_afterdate_TextChanged);
@@ -727,8 +730,8 @@
             this.Txt_endmsg.ForeColor = System.Drawing.Color.Black;
             this.Txt_endmsg.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_endmsg.HoverState.Parent = this.Txt_endmsg;
-            this.Txt_endmsg.Location = new System.Drawing.Point(526, 403);
-            this.Txt_endmsg.Margin = new System.Windows.Forms.Padding(6);
+            this.Txt_endmsg.Location = new System.Drawing.Point(701, 496);
+            this.Txt_endmsg.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Txt_endmsg.Multiline = true;
             this.Txt_endmsg.Name = "Txt_endmsg";
             this.Txt_endmsg.PasswordChar = '\0';
@@ -736,7 +739,7 @@
             this.Txt_endmsg.PlaceholderText = "End message";
             this.Txt_endmsg.SelectedText = "";
             this.Txt_endmsg.ShadowDecoration.Parent = this.Txt_endmsg;
-            this.Txt_endmsg.Size = new System.Drawing.Size(456, 72);
+            this.Txt_endmsg.Size = new System.Drawing.Size(608, 89);
             this.Txt_endmsg.TabIndex = 19;
             this.Txt_endmsg.UseSystemPasswordChar = true;
             this.Txt_endmsg.TextChanged += new System.EventHandler(this.Txt_endmsg_TextChanged);
@@ -760,8 +763,8 @@
             this.Txt_msg_afterStudent_name.ForeColor = System.Drawing.Color.Black;
             this.Txt_msg_afterStudent_name.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_msg_afterStudent_name.HoverState.Parent = this.Txt_msg_afterStudent_name;
-            this.Txt_msg_afterStudent_name.Location = new System.Drawing.Point(526, 302);
-            this.Txt_msg_afterStudent_name.Margin = new System.Windows.Forms.Padding(6);
+            this.Txt_msg_afterStudent_name.Location = new System.Drawing.Point(701, 372);
+            this.Txt_msg_afterStudent_name.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Txt_msg_afterStudent_name.Multiline = true;
             this.Txt_msg_afterStudent_name.Name = "Txt_msg_afterStudent_name";
             this.Txt_msg_afterStudent_name.PasswordChar = '\0';
@@ -769,7 +772,7 @@
             this.Txt_msg_afterStudent_name.PlaceholderText = "After student name";
             this.Txt_msg_afterStudent_name.SelectedText = "";
             this.Txt_msg_afterStudent_name.ShadowDecoration.Parent = this.Txt_msg_afterStudent_name;
-            this.Txt_msg_afterStudent_name.Size = new System.Drawing.Size(456, 72);
+            this.Txt_msg_afterStudent_name.Size = new System.Drawing.Size(608, 89);
             this.Txt_msg_afterStudent_name.TabIndex = 18;
             this.Txt_msg_afterStudent_name.UseSystemPasswordChar = true;
             this.Txt_msg_afterStudent_name.TextChanged += new System.EventHandler(this.Txt_msg_afterStudent_name_TextChanged);
@@ -779,9 +782,10 @@
             this.Message_richTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Message_richTextBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Message_richTextBox.ForeColor = System.Drawing.Color.Black;
-            this.Message_richTextBox.Location = new System.Drawing.Point(29, 39);
+            this.Message_richTextBox.Location = new System.Drawing.Point(39, 48);
+            this.Message_richTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Message_richTextBox.Name = "Message_richTextBox";
-            this.Message_richTextBox.Size = new System.Drawing.Size(953, 125);
+            this.Message_richTextBox.Size = new System.Drawing.Size(1269, 153);
             this.Message_richTextBox.TabIndex = 23;
             this.Message_richTextBox.Text = "\n";
             this.Message_richTextBox.TextChanged += new System.EventHandler(this.Message_richTextBox_TextChanged);
@@ -804,8 +808,8 @@
             this.Txt_moblie_number.ForeColor = System.Drawing.Color.Black;
             this.Txt_moblie_number.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_moblie_number.HoverState.Parent = this.Txt_moblie_number;
-            this.Txt_moblie_number.Location = new System.Drawing.Point(68, 515);
-            this.Txt_moblie_number.Margin = new System.Windows.Forms.Padding(5);
+            this.Txt_moblie_number.Location = new System.Drawing.Point(91, 634);
+            this.Txt_moblie_number.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Txt_moblie_number.Multiline = true;
             this.Txt_moblie_number.Name = "Txt_moblie_number";
             this.Txt_moblie_number.PasswordChar = '\0';
@@ -813,7 +817,7 @@
             this.Txt_moblie_number.PlaceholderText = "Your phone number. (9979*****7)";
             this.Txt_moblie_number.SelectedText = "";
             this.Txt_moblie_number.ShadowDecoration.Parent = this.Txt_moblie_number;
-            this.Txt_moblie_number.Size = new System.Drawing.Size(268, 37);
+            this.Txt_moblie_number.Size = new System.Drawing.Size(357, 46);
             this.Txt_moblie_number.TabIndex = 17;
             this.Txt_moblie_number.TextChanged += new System.EventHandler(this.Txt_moblie_number_TextChanged);
             this.Txt_moblie_number.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_moblie_number_KeyPress);
@@ -837,8 +841,8 @@
             this.Txt_msgentro.ForeColor = System.Drawing.Color.Black;
             this.Txt_msgentro.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_msgentro.HoverState.Parent = this.Txt_msgentro;
-            this.Txt_msgentro.Location = new System.Drawing.Point(29, 302);
-            this.Txt_msgentro.Margin = new System.Windows.Forms.Padding(6);
+            this.Txt_msgentro.Location = new System.Drawing.Point(39, 372);
+            this.Txt_msgentro.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Txt_msgentro.Multiline = true;
             this.Txt_msgentro.Name = "Txt_msgentro";
             this.Txt_msgentro.PasswordChar = '\0';
@@ -846,7 +850,7 @@
             this.Txt_msgentro.PlaceholderText = "Message entro";
             this.Txt_msgentro.SelectedText = "";
             this.Txt_msgentro.ShadowDecoration.Parent = this.Txt_msgentro;
-            this.Txt_msgentro.Size = new System.Drawing.Size(456, 72);
+            this.Txt_msgentro.Size = new System.Drawing.Size(608, 89);
             this.Txt_msgentro.TabIndex = 16;
             this.Txt_msgentro.TextChanged += new System.EventHandler(this.Txt_msgentro_TextChanged);
             // 
@@ -856,9 +860,10 @@
             this.lbl_msg.BackColor = System.Drawing.Color.Transparent;
             this.lbl_msg.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.lbl_msg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lbl_msg.Location = new System.Drawing.Point(25, 16);
+            this.lbl_msg.Location = new System.Drawing.Point(33, 20);
+            this.lbl_msg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_msg.Name = "lbl_msg";
-            this.lbl_msg.Size = new System.Drawing.Size(124, 18);
+            this.lbl_msg.Size = new System.Drawing.Size(153, 23);
             this.lbl_msg.TabIndex = 14;
             this.lbl_msg.Text = "Message Body";
             // 
@@ -881,8 +886,8 @@
             this.Txt_from.ForeColor = System.Drawing.Color.Black;
             this.Txt_from.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_from.HoverState.Parent = this.Txt_from;
-            this.Txt_from.Location = new System.Drawing.Point(28, 203);
-            this.Txt_from.Margin = new System.Windows.Forms.Padding(6);
+            this.Txt_from.Location = new System.Drawing.Point(37, 250);
+            this.Txt_from.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Txt_from.Multiline = true;
             this.Txt_from.Name = "Txt_from";
             this.Txt_from.PasswordChar = '\0';
@@ -890,7 +895,7 @@
             this.Txt_from.PlaceholderText = "From:";
             this.Txt_from.SelectedText = "";
             this.Txt_from.ShadowDecoration.Parent = this.Txt_from;
-            this.Txt_from.Size = new System.Drawing.Size(226, 66);
+            this.Txt_from.Size = new System.Drawing.Size(301, 81);
             this.Txt_from.TabIndex = 8;
             this.Txt_from.TextChanged += new System.EventHandler(this.Txt_from_TextChanged);
             // 
@@ -901,14 +906,15 @@
             this.Btn_send.CheckedState.Parent = this.Btn_send;
             this.Btn_send.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_send.CustomImages.Parent = this.Btn_send;
-            this.Btn_send.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
+            this.Btn_send.FillColor = System.Drawing.Color.Black;
             this.Btn_send.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.Btn_send.ForeColor = System.Drawing.Color.White;
             this.Btn_send.HoverState.Parent = this.Btn_send;
-            this.Btn_send.Location = new System.Drawing.Point(344, 515);
+            this.Btn_send.Location = new System.Drawing.Point(459, 634);
+            this.Btn_send.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_send.Name = "Btn_send";
             this.Btn_send.ShadowDecoration.Parent = this.Btn_send;
-            this.Btn_send.Size = new System.Drawing.Size(118, 39);
+            this.Btn_send.Size = new System.Drawing.Size(157, 48);
             this.Btn_send.TabIndex = 22;
             this.Btn_send.Text = "Send to me";
             this.Btn_send.Click += new System.EventHandler(this.Btn_send_Click);
@@ -917,17 +923,19 @@
             // 
             this.Btn_save_msg_exit.Animated = true;
             this.Btn_save_msg_exit.BorderRadius = 5;
+            this.Btn_save_msg_exit.BorderThickness = 2;
             this.Btn_save_msg_exit.CheckedState.Parent = this.Btn_save_msg_exit;
             this.Btn_save_msg_exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_save_msg_exit.CustomImages.Parent = this.Btn_save_msg_exit;
-            this.Btn_save_msg_exit.FillColor = System.Drawing.Color.IndianRed;
+            this.Btn_save_msg_exit.FillColor = System.Drawing.Color.White;
             this.Btn_save_msg_exit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.Btn_save_msg_exit.ForeColor = System.Drawing.Color.White;
+            this.Btn_save_msg_exit.ForeColor = System.Drawing.Color.Black;
             this.Btn_save_msg_exit.HoverState.Parent = this.Btn_save_msg_exit;
-            this.Btn_save_msg_exit.Location = new System.Drawing.Point(818, 515);
+            this.Btn_save_msg_exit.Location = new System.Drawing.Point(1091, 634);
+            this.Btn_save_msg_exit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_save_msg_exit.Name = "Btn_save_msg_exit";
             this.Btn_save_msg_exit.ShadowDecoration.Parent = this.Btn_save_msg_exit;
-            this.Btn_save_msg_exit.Size = new System.Drawing.Size(164, 39);
+            this.Btn_save_msg_exit.Size = new System.Drawing.Size(219, 48);
             this.Btn_save_msg_exit.TabIndex = 21;
             this.Btn_save_msg_exit.Text = "Save Exit message";
             this.Btn_save_msg_exit.Click += new System.EventHandler(this.Btn_save_msg_exit_Click);
@@ -936,17 +944,19 @@
             // 
             this.Btn_show_exit_msg.Animated = true;
             this.Btn_show_exit_msg.BorderRadius = 5;
+            this.Btn_show_exit_msg.BorderThickness = 2;
             this.Btn_show_exit_msg.CheckedState.Parent = this.Btn_show_exit_msg;
             this.Btn_show_exit_msg.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_show_exit_msg.CustomImages.Parent = this.Btn_show_exit_msg;
-            this.Btn_show_exit_msg.FillColor = System.Drawing.Color.IndianRed;
+            this.Btn_show_exit_msg.FillColor = System.Drawing.Color.White;
             this.Btn_show_exit_msg.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_show_exit_msg.ForeColor = System.Drawing.Color.White;
+            this.Btn_show_exit_msg.ForeColor = System.Drawing.Color.Black;
             this.Btn_show_exit_msg.HoverState.Parent = this.Btn_show_exit_msg;
-            this.Btn_show_exit_msg.Location = new System.Drawing.Point(818, 9);
+            this.Btn_show_exit_msg.Location = new System.Drawing.Point(1091, 11);
+            this.Btn_show_exit_msg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_show_exit_msg.Name = "Btn_show_exit_msg";
             this.Btn_show_exit_msg.ShadowDecoration.Parent = this.Btn_show_exit_msg;
-            this.Btn_show_exit_msg.Size = new System.Drawing.Size(164, 27);
+            this.Btn_show_exit_msg.Size = new System.Drawing.Size(219, 33);
             this.Btn_show_exit_msg.TabIndex = 21;
             this.Btn_show_exit_msg.Text = "Show Exit Message";
             this.Btn_show_exit_msg.Click += new System.EventHandler(this.Btn_show_exit_msg_Click);
@@ -958,14 +968,15 @@
             this.Btn_show_entry_msg.CheckedState.Parent = this.Btn_show_entry_msg;
             this.Btn_show_entry_msg.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_show_entry_msg.CustomImages.Parent = this.Btn_show_entry_msg;
-            this.Btn_show_entry_msg.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn_show_entry_msg.FillColor = System.Drawing.Color.Black;
             this.Btn_show_entry_msg.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_show_entry_msg.ForeColor = System.Drawing.Color.White;
             this.Btn_show_entry_msg.HoverState.Parent = this.Btn_show_entry_msg;
-            this.Btn_show_entry_msg.Location = new System.Drawing.Point(649, 9);
+            this.Btn_show_entry_msg.Location = new System.Drawing.Point(865, 11);
+            this.Btn_show_entry_msg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_show_entry_msg.Name = "Btn_show_entry_msg";
             this.Btn_show_entry_msg.ShadowDecoration.Parent = this.Btn_show_entry_msg;
-            this.Btn_show_entry_msg.Size = new System.Drawing.Size(164, 27);
+            this.Btn_show_entry_msg.Size = new System.Drawing.Size(219, 33);
             this.Btn_show_entry_msg.TabIndex = 21;
             this.Btn_show_entry_msg.Text = "Show Entry Message";
             this.Btn_show_entry_msg.Click += new System.EventHandler(this.Btn_show_entry_msg_Click);
@@ -977,14 +988,15 @@
             this.Btn_save_msg_entry.CheckedState.Parent = this.Btn_save_msg_entry;
             this.Btn_save_msg_entry.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_save_msg_entry.CustomImages.Parent = this.Btn_save_msg_entry;
-            this.Btn_save_msg_entry.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn_save_msg_entry.FillColor = System.Drawing.Color.Black;
             this.Btn_save_msg_entry.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.Btn_save_msg_entry.ForeColor = System.Drawing.Color.White;
             this.Btn_save_msg_entry.HoverState.Parent = this.Btn_save_msg_entry;
-            this.Btn_save_msg_entry.Location = new System.Drawing.Point(648, 515);
+            this.Btn_save_msg_entry.Location = new System.Drawing.Point(864, 634);
+            this.Btn_save_msg_entry.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_save_msg_entry.Name = "Btn_save_msg_entry";
             this.Btn_save_msg_entry.ShadowDecoration.Parent = this.Btn_save_msg_entry;
-            this.Btn_save_msg_entry.Size = new System.Drawing.Size(164, 39);
+            this.Btn_save_msg_entry.Size = new System.Drawing.Size(219, 48);
             this.Btn_save_msg_entry.TabIndex = 21;
             this.Btn_save_msg_entry.Text = "Save Entry Message";
             this.Btn_save_msg_entry.Click += new System.EventHandler(this.Btn_save_msg_entry_Click);
@@ -995,9 +1007,10 @@
             this.Lbl_endmsg.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_endmsg.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.Lbl_endmsg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Lbl_endmsg.Location = new System.Drawing.Point(523, 380);
+            this.Lbl_endmsg.Location = new System.Drawing.Point(697, 468);
+            this.Lbl_endmsg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_endmsg.Name = "Lbl_endmsg";
-            this.Lbl_endmsg.Size = new System.Drawing.Size(313, 18);
+            this.Lbl_endmsg.Size = new System.Drawing.Size(387, 23);
             this.Lbl_endmsg.TabIndex = 9;
             this.Lbl_endmsg.Text = "End message after body temperature :";
             // 
@@ -1007,9 +1020,10 @@
             this.Lbl_afterdate.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_afterdate.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.Lbl_afterdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Lbl_afterdate.Location = new System.Drawing.Point(26, 380);
+            this.Lbl_afterdate.Location = new System.Drawing.Point(35, 468);
+            this.Lbl_afterdate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_afterdate.Name = "Lbl_afterdate";
-            this.Lbl_afterdate.Size = new System.Drawing.Size(252, 18);
+            this.Lbl_afterdate.Size = new System.Drawing.Size(312, 23);
             this.Lbl_afterdate.TabIndex = 9;
             this.Lbl_afterdate.Text = "Message after Date and Time : ";
             // 
@@ -1019,9 +1033,10 @@
             this.Lbl_afterstname.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_afterstname.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.Lbl_afterstname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Lbl_afterstname.Location = new System.Drawing.Point(523, 278);
+            this.Lbl_afterstname.Location = new System.Drawing.Point(697, 342);
+            this.Lbl_afterstname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_afterstname.Name = "Lbl_afterstname";
-            this.Lbl_afterstname.Size = new System.Drawing.Size(247, 18);
+            this.Lbl_afterstname.Size = new System.Drawing.Size(304, 23);
             this.Lbl_afterstname.TabIndex = 9;
             this.Lbl_afterstname.Text = "Message after student name : ";
             // 
@@ -1031,9 +1046,10 @@
             this.Lbl_msgentro.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_msgentro.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.Lbl_msgentro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Lbl_msgentro.Location = new System.Drawing.Point(26, 278);
+            this.Lbl_msgentro.Location = new System.Drawing.Point(35, 342);
+            this.Lbl_msgentro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_msgentro.Name = "Lbl_msgentro";
-            this.Lbl_msgentro.Size = new System.Drawing.Size(133, 18);
+            this.Lbl_msgentro.Size = new System.Drawing.Size(164, 23);
             this.Lbl_msgentro.TabIndex = 9;
             this.Lbl_msgentro.Text = "Message intro : ";
             // 
@@ -1043,9 +1059,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(27, 523);
+            this.label1.Location = new System.Drawing.Point(36, 644);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 22);
+            this.label1.Size = new System.Drawing.Size(52, 27);
             this.label1.TabIndex = 9;
             this.label1.Text = "+63";
             // 
@@ -1055,9 +1072,10 @@
             this.Lbl_from.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_from.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.Lbl_from.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Lbl_from.Location = new System.Drawing.Point(25, 179);
+            this.Lbl_from.Location = new System.Drawing.Point(33, 220);
+            this.Lbl_from.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_from.Name = "Lbl_from";
-            this.Lbl_from.Size = new System.Drawing.Size(62, 18);
+            this.Lbl_from.Size = new System.Drawing.Size(77, 23);
             this.Lbl_from.TabIndex = 9;
             this.Lbl_from.Text = "From : ";
             // 
@@ -1068,9 +1086,10 @@
             this.Port_setting.Controls.Add(this.guna2ShadowPanel1);
             this.Port_setting.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Port_setting.Location = new System.Drawing.Point(4, 34);
+            this.Port_setting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Port_setting.Name = "Port_setting";
-            this.Port_setting.Padding = new System.Windows.Forms.Padding(3);
-            this.Port_setting.Size = new System.Drawing.Size(1003, 571);
+            this.Port_setting.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Port_setting.Size = new System.Drawing.Size(1340, 712);
             this.Port_setting.TabIndex = 1;
             this.Port_setting.Text = "Port Connection";
             // 
@@ -1089,12 +1108,13 @@
             this.guna2ShadowPanel1.Controls.Add(this.Lbl_cameraport);
             this.guna2ShadowPanel1.Controls.Add(this.cb_port_arduinoList);
             this.guna2ShadowPanel1.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(269, 55);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(359, 68);
+            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 5;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
             this.guna2ShadowPanel1.ShadowDepth = 90;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(503, 483);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(671, 594);
             this.guna2ShadowPanel1.TabIndex = 0;
             // 
             // Refresh_
@@ -1103,17 +1123,16 @@
             this.Refresh_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Refresh_.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.Refresh_.CheckedState.Parent = this.Refresh_;
-            //this.Refresh_.HoverState.ImageRotate = 360F;
             this.Refresh_.HoverState.ImageSize = new System.Drawing.Size(27, 27);
             this.Refresh_.HoverState.Parent = this.Refresh_;
             this.Refresh_.Image = global::AGPMS_application.Properties.Resources.icons8_refresh_208px;
-            //this.Refresh_.ImageRotate = 0F;
             this.Refresh_.ImageSize = new System.Drawing.Size(25, 25);
-            this.Refresh_.Location = new System.Drawing.Point(442, 12);
+            this.Refresh_.Location = new System.Drawing.Point(589, 15);
+            this.Refresh_.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Refresh_.Name = "Refresh_";
             this.Refresh_.PressedState.ImageSize = new System.Drawing.Size(25, 25);
             this.Refresh_.PressedState.Parent = this.Refresh_;
-            this.Refresh_.Size = new System.Drawing.Size(41, 37);
+            this.Refresh_.Size = new System.Drawing.Size(55, 46);
             this.Refresh_.TabIndex = 16;
             this.Refresh_.UseTransparentBackground = true;
             this.Refresh_.Click += new System.EventHandler(this.Refresh__Click);
@@ -1123,10 +1142,11 @@
             this.Alert_succes1.BackColor = System.Drawing.Color.DodgerBlue;
             this.Alert_succes1.BorderRadius = 5;
             this.Alert_succes1.Controls.Add(this.label8);
-            this.Alert_succes1.Location = new System.Drawing.Point(63, 82);
+            this.Alert_succes1.Location = new System.Drawing.Point(84, 101);
+            this.Alert_succes1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Alert_succes1.Name = "Alert_succes1";
             this.Alert_succes1.ShadowDecoration.Parent = this.Alert_succes1;
-            this.Alert_succes1.Size = new System.Drawing.Size(375, 42);
+            this.Alert_succes1.Size = new System.Drawing.Size(500, 52);
             this.Alert_succes1.TabIndex = 15;
             this.Alert_succes1.Visible = false;
             // 
@@ -1137,9 +1157,10 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(126, 10);
+            this.label8.Location = new System.Drawing.Point(168, 12);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(124, 20);
+            this.label8.Size = new System.Drawing.Size(154, 25);
             this.label8.TabIndex = 2;
             this.label8.Text = "Save success!";
             // 
@@ -1150,9 +1171,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(31, 21);
+            this.label2.Location = new System.Drawing.Point(41, 26);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 18);
+            this.label2.Size = new System.Drawing.Size(167, 23);
             this.label2.TabIndex = 10;
             this.label2.Text = "Port Connection";
             // 
@@ -1170,10 +1192,11 @@
             this.cb_camera_entry.HoverState.Parent = this.cb_camera_entry;
             this.cb_camera_entry.ItemHeight = 30;
             this.cb_camera_entry.ItemsAppearance.Parent = this.cb_camera_entry;
-            this.cb_camera_entry.Location = new System.Drawing.Point(63, 156);
+            this.cb_camera_entry.Location = new System.Drawing.Point(84, 192);
+            this.cb_camera_entry.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cb_camera_entry.Name = "cb_camera_entry";
             this.cb_camera_entry.ShadowDecoration.Parent = this.cb_camera_entry;
-            this.cb_camera_entry.Size = new System.Drawing.Size(375, 36);
+            this.cb_camera_entry.Size = new System.Drawing.Size(499, 36);
             this.cb_camera_entry.TabIndex = 12;
             // 
             // Lbl_arduinoport
@@ -1183,9 +1206,10 @@
             this.Lbl_arduinoport.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_arduinoport.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_arduinoport.ForeColor = System.Drawing.Color.Black;
-            this.Lbl_arduinoport.Location = new System.Drawing.Point(64, 194);
+            this.Lbl_arduinoport.Location = new System.Drawing.Point(85, 239);
+            this.Lbl_arduinoport.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_arduinoport.Name = "Lbl_arduinoport";
-            this.Lbl_arduinoport.Size = new System.Drawing.Size(101, 15);
+            this.Lbl_arduinoport.Size = new System.Drawing.Size(126, 18);
             this.Lbl_arduinoport.TabIndex = 8;
             this.Lbl_arduinoport.Text = "ARDUINO PORT:";
             // 
@@ -1196,14 +1220,15 @@
             this.Btn_Save.CheckedState.Parent = this.Btn_Save;
             this.Btn_Save.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_Save.CustomImages.Parent = this.Btn_Save;
-            this.Btn_Save.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn_Save.FillColor = System.Drawing.Color.Black;
             this.Btn_Save.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.Btn_Save.ForeColor = System.Drawing.Color.White;
             this.Btn_Save.HoverState.Parent = this.Btn_Save;
-            this.Btn_Save.Location = new System.Drawing.Point(63, 349);
+            this.Btn_Save.Location = new System.Drawing.Point(84, 430);
+            this.Btn_Save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_Save.Name = "Btn_Save";
             this.Btn_Save.ShadowDecoration.Parent = this.Btn_Save;
-            this.Btn_Save.Size = new System.Drawing.Size(375, 39);
+            this.Btn_Save.Size = new System.Drawing.Size(500, 48);
             this.Btn_Save.TabIndex = 11;
             this.Btn_Save.Text = "Save";
             this.Btn_Save.Click += new System.EventHandler(this.Btn_Save_Click);
@@ -1222,10 +1247,11 @@
             this.cb_gsm_portlist.HoverState.Parent = this.cb_gsm_portlist;
             this.cb_gsm_portlist.ItemHeight = 30;
             this.cb_gsm_portlist.ItemsAppearance.Parent = this.cb_gsm_portlist;
-            this.cb_gsm_portlist.Location = new System.Drawing.Point(63, 283);
+            this.cb_gsm_portlist.Location = new System.Drawing.Point(84, 348);
+            this.cb_gsm_portlist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cb_gsm_portlist.Name = "cb_gsm_portlist";
             this.cb_gsm_portlist.ShadowDecoration.Parent = this.cb_gsm_portlist;
-            this.cb_gsm_portlist.Size = new System.Drawing.Size(375, 36);
+            this.cb_gsm_portlist.Size = new System.Drawing.Size(499, 36);
             this.cb_gsm_portlist.TabIndex = 13;
             // 
             // Lbl_modemport
@@ -1235,9 +1261,10 @@
             this.Lbl_modemport.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_modemport.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_modemport.ForeColor = System.Drawing.Color.Black;
-            this.Lbl_modemport.Location = new System.Drawing.Point(60, 265);
+            this.Lbl_modemport.Location = new System.Drawing.Point(80, 326);
+            this.Lbl_modemport.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_modemport.Name = "Lbl_modemport";
-            this.Lbl_modemport.Size = new System.Drawing.Size(125, 15);
+            this.Lbl_modemport.Size = new System.Drawing.Size(156, 18);
             this.Lbl_modemport.TabIndex = 9;
             this.Lbl_modemport.Text = "GSM MODEM PORT:";
             // 
@@ -1248,9 +1275,10 @@
             this.Lbl_cameraport.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_cameraport.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_cameraport.ForeColor = System.Drawing.Color.Black;
-            this.Lbl_cameraport.Location = new System.Drawing.Point(60, 138);
+            this.Lbl_cameraport.Location = new System.Drawing.Point(80, 170);
+            this.Lbl_cameraport.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_cameraport.Name = "Lbl_cameraport";
-            this.Lbl_cameraport.Size = new System.Drawing.Size(137, 15);
+            this.Lbl_cameraport.Size = new System.Drawing.Size(173, 18);
             this.Lbl_cameraport.TabIndex = 10;
             this.Lbl_cameraport.Text = "GATE ENTRY CAMERA:";
             // 
@@ -1268,10 +1296,11 @@
             this.cb_port_arduinoList.HoverState.Parent = this.cb_port_arduinoList;
             this.cb_port_arduinoList.ItemHeight = 30;
             this.cb_port_arduinoList.ItemsAppearance.Parent = this.cb_port_arduinoList;
-            this.cb_port_arduinoList.Location = new System.Drawing.Point(63, 213);
+            this.cb_port_arduinoList.Location = new System.Drawing.Point(84, 262);
+            this.cb_port_arduinoList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cb_port_arduinoList.Name = "cb_port_arduinoList";
             this.cb_port_arduinoList.ShadowDecoration.Parent = this.cb_port_arduinoList;
-            this.cb_port_arduinoList.Size = new System.Drawing.Size(375, 36);
+            this.cb_port_arduinoList.Size = new System.Drawing.Size(499, 36);
             this.cb_port_arduinoList.TabIndex = 14;
             // 
             // tabPage1
@@ -1279,9 +1308,10 @@
             this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage1.Controls.Add(this.guna2ShadowPanel2);
             this.tabPage1.Location = new System.Drawing.Point(4, 34);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1003, 571);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Size = new System.Drawing.Size(1340, 712);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "Age Restriction";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -1310,14 +1340,80 @@
             this.guna2ShadowPanel2.Controls.Add(this.label5);
             this.guna2ShadowPanel2.Controls.Add(this.Btn_save_msg_restriction);
             this.guna2ShadowPanel2.Controls.Add(this.Btn_Save_age_setting);
-            this.guna2ShadowPanel2.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(11, 16);
+            this.guna2ShadowPanel2.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(15, 20);
+            this.guna2ShadowPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.Radius = 5;
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
             this.guna2ShadowPanel2.ShadowDepth = 90;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(984, 547);
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(1312, 673);
             this.guna2ShadowPanel2.TabIndex = 1;
+            // 
+            // InputNum
+            // 
+            this.InputNum.Animated = true;
+            this.InputNum.BorderColor = System.Drawing.Color.Silver;
+            this.InputNum.BorderRadius = 5;
+            this.InputNum.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.InputNum.DefaultText = "";
+            this.InputNum.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.InputNum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.InputNum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.InputNum.DisabledState.Parent = this.InputNum;
+            this.InputNum.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.InputNum.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.InputNum.FocusedState.Parent = this.InputNum;
+            this.InputNum.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InputNum.ForeColor = System.Drawing.Color.Black;
+            this.InputNum.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.InputNum.HoverState.Parent = this.InputNum;
+            this.InputNum.Location = new System.Drawing.Point(95, 399);
+            this.InputNum.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.InputNum.Multiline = true;
+            this.InputNum.Name = "InputNum";
+            this.InputNum.PasswordChar = '\0';
+            this.InputNum.PlaceholderForeColor = System.Drawing.Color.DimGray;
+            this.InputNum.PlaceholderText = "Your phone number. (9979*****7)";
+            this.InputNum.SelectedText = "";
+            this.InputNum.ShadowDecoration.Parent = this.InputNum;
+            this.InputNum.Size = new System.Drawing.Size(285, 46);
+            this.InputNum.TabIndex = 36;
+            this.InputNum.TextChanged += new System.EventHandler(this.InputNum_TextChanged);
+            // 
+            // Btn_send_restric_msg
+            // 
+            this.Btn_send_restric_msg.Animated = true;
+            this.Btn_send_restric_msg.BorderRadius = 5;
+            this.Btn_send_restric_msg.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
+            this.Btn_send_restric_msg.CheckedState.Parent = this.Btn_send_restric_msg;
+            this.Btn_send_restric_msg.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Btn_send_restric_msg.CustomImages.Parent = this.Btn_send_restric_msg;
+            this.Btn_send_restric_msg.FillColor = System.Drawing.Color.Black;
+            this.Btn_send_restric_msg.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.Btn_send_restric_msg.ForeColor = System.Drawing.Color.White;
+            this.Btn_send_restric_msg.HoverState.Parent = this.Btn_send_restric_msg;
+            this.Btn_send_restric_msg.Location = new System.Drawing.Point(37, 455);
+            this.Btn_send_restric_msg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_send_restric_msg.Name = "Btn_send_restric_msg";
+            this.Btn_send_restric_msg.ShadowDecoration.Parent = this.Btn_send_restric_msg;
+            this.Btn_send_restric_msg.Size = new System.Drawing.Size(343, 48);
+            this.Btn_send_restric_msg.TabIndex = 37;
+            this.Btn_send_restric_msg.Text = "Send to me";
+            this.Btn_send_restric_msg.Click += new System.EventHandler(this.Btn_send_restric_msg_Click);
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label24.Location = new System.Drawing.Point(32, 409);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(52, 27);
+            this.label24.TabIndex = 35;
+            this.label24.Text = "+63";
             // 
             // label13
             // 
@@ -1325,9 +1421,10 @@
             this.label13.BackColor = System.Drawing.SystemColors.Control;
             this.label13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label13.Location = new System.Drawing.Point(816, 174);
+            this.label13.Location = new System.Drawing.Point(1088, 214);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(155, 16);
+            this.label13.Size = new System.Drawing.Size(197, 19);
             this.label13.TabIndex = 34;
             this.label13.Text = "Characters : 0   Words: 0";
             // 
@@ -1337,9 +1434,10 @@
             this.Alert2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(188)))), ((int)(((byte)(212)))));
             this.Alert2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Alert2.ForeColor = System.Drawing.Color.White;
-            this.Alert2.Location = new System.Drawing.Point(691, 172);
+            this.Alert2.Location = new System.Drawing.Point(921, 212);
+            this.Alert2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Alert2.Name = "Alert2";
-            this.Alert2.Size = new System.Drawing.Size(119, 20);
+            this.Alert2.Size = new System.Drawing.Size(147, 25);
             this.Alert2.TabIndex = 33;
             this.Alert2.Text = "Save success";
             this.Alert2.Visible = false;
@@ -1348,9 +1446,10 @@
             // 
             this.Message_age_restriction.AccessibleRole = System.Windows.Forms.AccessibleRole.WhiteSpace;
             this.Message_age_restriction.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Message_age_restriction.Location = new System.Drawing.Point(317, 36);
+            this.Message_age_restriction.Location = new System.Drawing.Point(423, 44);
+            this.Message_age_restriction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Message_age_restriction.Name = "Message_age_restriction";
-            this.Message_age_restriction.Size = new System.Drawing.Size(654, 130);
+            this.Message_age_restriction.Size = new System.Drawing.Size(871, 159);
             this.Message_age_restriction.TabIndex = 32;
             this.Message_age_restriction.Text = "";
             // 
@@ -1373,8 +1472,8 @@
             this.Txt_end_restriction.ForeColor = System.Drawing.Color.Black;
             this.Txt_end_restriction.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_end_restriction.HoverState.Parent = this.Txt_end_restriction;
-            this.Txt_end_restriction.Location = new System.Drawing.Point(317, 394);
-            this.Txt_end_restriction.Margin = new System.Windows.Forms.Padding(6);
+            this.Txt_end_restriction.Location = new System.Drawing.Point(423, 485);
+            this.Txt_end_restriction.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Txt_end_restriction.Multiline = true;
             this.Txt_end_restriction.Name = "Txt_end_restriction";
             this.Txt_end_restriction.PasswordChar = '\0';
@@ -1382,7 +1481,7 @@
             this.Txt_end_restriction.PlaceholderText = "Message end";
             this.Txt_end_restriction.SelectedText = "";
             this.Txt_end_restriction.ShadowDecoration.Parent = this.Txt_end_restriction;
-            this.Txt_end_restriction.Size = new System.Drawing.Size(654, 72);
+            this.Txt_end_restriction.Size = new System.Drawing.Size(872, 89);
             this.Txt_end_restriction.TabIndex = 31;
             this.Txt_end_restriction.UseSystemPasswordChar = true;
             this.Txt_end_restriction.TextChanged += new System.EventHandler(this.Txt_end_restriction_TextChanged);
@@ -1406,8 +1505,8 @@
             this.Txt_intro_restriction.ForeColor = System.Drawing.Color.Black;
             this.Txt_intro_restriction.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_intro_restriction.HoverState.Parent = this.Txt_intro_restriction;
-            this.Txt_intro_restriction.Location = new System.Drawing.Point(317, 198);
-            this.Txt_intro_restriction.Margin = new System.Windows.Forms.Padding(6);
+            this.Txt_intro_restriction.Location = new System.Drawing.Point(423, 244);
+            this.Txt_intro_restriction.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Txt_intro_restriction.Multiline = true;
             this.Txt_intro_restriction.Name = "Txt_intro_restriction";
             this.Txt_intro_restriction.PasswordChar = '\0';
@@ -1415,7 +1514,7 @@
             this.Txt_intro_restriction.PlaceholderText = "Message entro";
             this.Txt_intro_restriction.SelectedText = "";
             this.Txt_intro_restriction.ShadowDecoration.Parent = this.Txt_intro_restriction;
-            this.Txt_intro_restriction.Size = new System.Drawing.Size(654, 72);
+            this.Txt_intro_restriction.Size = new System.Drawing.Size(872, 89);
             this.Txt_intro_restriction.TabIndex = 30;
             this.Txt_intro_restriction.TextChanged += new System.EventHandler(this.Txt_intro_restriction_TextChanged);
             // 
@@ -1438,8 +1537,8 @@
             this.Txt_after_restriction.ForeColor = System.Drawing.Color.Black;
             this.Txt_after_restriction.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_after_restriction.HoverState.Parent = this.Txt_after_restriction;
-            this.Txt_after_restriction.Location = new System.Drawing.Point(316, 300);
-            this.Txt_after_restriction.Margin = new System.Windows.Forms.Padding(6);
+            this.Txt_after_restriction.Location = new System.Drawing.Point(421, 369);
+            this.Txt_after_restriction.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Txt_after_restriction.Multiline = true;
             this.Txt_after_restriction.Name = "Txt_after_restriction";
             this.Txt_after_restriction.PasswordChar = '\0';
@@ -1447,7 +1546,7 @@
             this.Txt_after_restriction.PlaceholderText = "After student name";
             this.Txt_after_restriction.SelectedText = "";
             this.Txt_after_restriction.ShadowDecoration.Parent = this.Txt_after_restriction;
-            this.Txt_after_restriction.Size = new System.Drawing.Size(654, 66);
+            this.Txt_after_restriction.Size = new System.Drawing.Size(872, 81);
             this.Txt_after_restriction.TabIndex = 26;
             this.Txt_after_restriction.TextChanged += new System.EventHandler(this.Txt_after_restriction_TextChanged);
             // 
@@ -1457,9 +1556,10 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label10.Location = new System.Drawing.Point(314, 370);
+            this.label10.Location = new System.Drawing.Point(419, 455);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(113, 18);
+            this.label10.Size = new System.Drawing.Size(140, 23);
             this.label10.TabIndex = 27;
             this.label10.Text = "Message end";
             // 
@@ -1469,9 +1569,10 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label11.Location = new System.Drawing.Point(314, 174);
+            this.label11.Location = new System.Drawing.Point(419, 214);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(125, 18);
+            this.label11.Size = new System.Drawing.Size(155, 23);
             this.label11.TabIndex = 28;
             this.label11.Text = "Message info : ";
             // 
@@ -1481,9 +1582,10 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label12.Location = new System.Drawing.Point(314, 276);
+            this.label12.Location = new System.Drawing.Point(419, 340);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(161, 18);
+            this.label12.Size = new System.Drawing.Size(197, 23);
             this.label12.TabIndex = 29;
             this.label12.Text = "After student name";
             // 
@@ -1493,9 +1595,10 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.Location = new System.Drawing.Point(313, 11);
+            this.label7.Location = new System.Drawing.Point(417, 14);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(124, 18);
+            this.label7.Size = new System.Drawing.Size(153, 23);
             this.label7.TabIndex = 24;
             this.label7.Text = "Message Body";
             // 
@@ -1514,15 +1617,15 @@
             this.Txt_oldest.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Txt_oldest.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_oldest.HoverState.Parent = this.Txt_oldest;
-            this.Txt_oldest.Location = new System.Drawing.Point(28, 172);
-            this.Txt_oldest.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.Txt_oldest.Location = new System.Drawing.Point(37, 212);
+            this.Txt_oldest.Margin = new System.Windows.Forms.Padding(11, 7, 11, 7);
             this.Txt_oldest.Name = "Txt_oldest";
             this.Txt_oldest.PasswordChar = '\0';
             this.Txt_oldest.PlaceholderText = "";
             this.Txt_oldest.SelectedText = "";
             this.Txt_oldest.SelectionStart = 2;
             this.Txt_oldest.ShadowDecoration.Parent = this.Txt_oldest;
-            this.Txt_oldest.Size = new System.Drawing.Size(257, 32);
+            this.Txt_oldest.Size = new System.Drawing.Size(343, 39);
             this.Txt_oldest.TabIndex = 16;
             // 
             // label6
@@ -1531,9 +1634,10 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(25, 151);
+            this.label6.Location = new System.Drawing.Point(33, 186);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(83, 15);
+            this.label6.Size = new System.Drawing.Size(104, 18);
             this.label6.TabIndex = 8;
             this.label6.Text = "FOR OLDEST";
             // 
@@ -1552,15 +1656,15 @@
             this.Txt_youngest.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Txt_youngest.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_youngest.HoverState.Parent = this.Txt_youngest;
-            this.Txt_youngest.Location = new System.Drawing.Point(28, 107);
-            this.Txt_youngest.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Txt_youngest.Location = new System.Drawing.Point(37, 132);
+            this.Txt_youngest.Margin = new System.Windows.Forms.Padding(7, 5, 7, 5);
             this.Txt_youngest.Name = "Txt_youngest";
             this.Txt_youngest.PasswordChar = '\0';
             this.Txt_youngest.PlaceholderText = "";
             this.Txt_youngest.SelectedText = "";
             this.Txt_youngest.SelectionStart = 2;
             this.Txt_youngest.ShadowDecoration.Parent = this.Txt_youngest;
-            this.Txt_youngest.Size = new System.Drawing.Size(257, 32);
+            this.Txt_youngest.Size = new System.Drawing.Size(343, 39);
             this.Txt_youngest.TabIndex = 16;
             // 
             // label9
@@ -1569,9 +1673,10 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(25, 88);
+            this.label9.Location = new System.Drawing.Point(33, 108);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(101, 15);
+            this.label9.Size = new System.Drawing.Size(128, 18);
             this.label9.TabIndex = 10;
             this.label9.Text = "FOR YOUNGEST";
             // 
@@ -1580,10 +1685,11 @@
             this.Savesuccess.BackColor = System.Drawing.Color.DodgerBlue;
             this.Savesuccess.BorderRadius = 5;
             this.Savesuccess.Controls.Add(this.label4);
-            this.Savesuccess.Location = new System.Drawing.Point(28, 36);
+            this.Savesuccess.Location = new System.Drawing.Point(37, 44);
+            this.Savesuccess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Savesuccess.Name = "Savesuccess";
             this.Savesuccess.ShadowDecoration.Parent = this.Savesuccess;
-            this.Savesuccess.Size = new System.Drawing.Size(257, 39);
+            this.Savesuccess.Size = new System.Drawing.Size(343, 48);
             this.Savesuccess.TabIndex = 15;
             this.Savesuccess.Visible = false;
             // 
@@ -1594,9 +1700,10 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(67, 10);
+            this.label4.Location = new System.Drawing.Point(89, 12);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(124, 20);
+            this.label4.Size = new System.Drawing.Size(154, 25);
             this.label4.TabIndex = 2;
             this.label4.Text = "Save success!";
             // 
@@ -1607,9 +1714,10 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label5.Location = new System.Drawing.Point(25, 11);
+            this.label5.Location = new System.Drawing.Point(33, 14);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(132, 18);
+            this.label5.Size = new System.Drawing.Size(160, 23);
             this.label5.TabIndex = 10;
             this.label5.Text = "Age Restriction";
             // 
@@ -1620,14 +1728,15 @@
             this.Btn_save_msg_restriction.CheckedState.Parent = this.Btn_save_msg_restriction;
             this.Btn_save_msg_restriction.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_save_msg_restriction.CustomImages.Parent = this.Btn_save_msg_restriction;
-            this.Btn_save_msg_restriction.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn_save_msg_restriction.FillColor = System.Drawing.Color.Black;
             this.Btn_save_msg_restriction.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.Btn_save_msg_restriction.ForeColor = System.Drawing.Color.White;
             this.Btn_save_msg_restriction.HoverState.Parent = this.Btn_save_msg_restriction;
-            this.Btn_save_msg_restriction.Location = new System.Drawing.Point(889, 484);
+            this.Btn_save_msg_restriction.Location = new System.Drawing.Point(926, 596);
+            this.Btn_save_msg_restriction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_save_msg_restriction.Name = "Btn_save_msg_restriction";
             this.Btn_save_msg_restriction.ShadowDecoration.Parent = this.Btn_save_msg_restriction;
-            this.Btn_save_msg_restriction.Size = new System.Drawing.Size(82, 39);
+            this.Btn_save_msg_restriction.Size = new System.Drawing.Size(368, 48);
             this.Btn_save_msg_restriction.TabIndex = 11;
             this.Btn_save_msg_restriction.Text = "Save";
             this.Btn_save_msg_restriction.Click += new System.EventHandler(this.Btn_save_msg_restriction_Click);
@@ -1636,26 +1745,29 @@
             // 
             this.Btn_Save_age_setting.Animated = true;
             this.Btn_Save_age_setting.BorderRadius = 5;
+            this.Btn_Save_age_setting.BorderThickness = 2;
             this.Btn_Save_age_setting.CheckedState.Parent = this.Btn_Save_age_setting;
             this.Btn_Save_age_setting.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_Save_age_setting.CustomImages.Parent = this.Btn_Save_age_setting;
-            this.Btn_Save_age_setting.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn_Save_age_setting.FillColor = System.Drawing.Color.White;
             this.Btn_Save_age_setting.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.Btn_Save_age_setting.ForeColor = System.Drawing.Color.White;
+            this.Btn_Save_age_setting.ForeColor = System.Drawing.Color.Black;
             this.Btn_Save_age_setting.HoverState.Parent = this.Btn_Save_age_setting;
-            this.Btn_Save_age_setting.Location = new System.Drawing.Point(203, 223);
+            this.Btn_Save_age_setting.Location = new System.Drawing.Point(37, 274);
+            this.Btn_Save_age_setting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_Save_age_setting.Name = "Btn_Save_age_setting";
             this.Btn_Save_age_setting.ShadowDecoration.Parent = this.Btn_Save_age_setting;
-            this.Btn_Save_age_setting.Size = new System.Drawing.Size(82, 39);
+            this.Btn_Save_age_setting.Size = new System.Drawing.Size(343, 48);
             this.Btn_Save_age_setting.TabIndex = 11;
             this.Btn_Save_age_setting.Text = "Save";
             this.Btn_Save_age_setting.Click += new System.EventHandler(this.Btn_Save_age_setting_Click);
             // 
             // guna2Separator1
             // 
-            this.guna2Separator1.Location = new System.Drawing.Point(0, 39);
+            this.guna2Separator1.Location = new System.Drawing.Point(0, 48);
+            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(1108, 13);
+            this.guna2Separator1.Size = new System.Drawing.Size(1477, 16);
             this.guna2Separator1.TabIndex = 16;
             // 
             // label3
@@ -1664,26 +1776,29 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(11, 14);
+            this.label3.Location = new System.Drawing.Point(15, 17);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 22);
+            this.label3.Size = new System.Drawing.Size(100, 27);
             this.label3.TabIndex = 14;
             this.label3.Text = "Settings";
             // 
             // Btn_close
             // 
             this.Btn_close.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_close.BorderRadius = 10;
             this.Btn_close.CheckedState.Parent = this.Btn_close;
             this.Btn_close.CustomImages.Parent = this.Btn_close;
-            this.Btn_close.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Btn_close.FillColor = System.Drawing.Color.Black;
             this.Btn_close.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Btn_close.ForeColor = System.Drawing.Color.White;
             this.Btn_close.HoverState.Parent = this.Btn_close;
             this.Btn_close.Image = global::AGPMS_application.Properties.Resources.Close;
-            this.Btn_close.Location = new System.Drawing.Point(968, 8);
+            this.Btn_close.Location = new System.Drawing.Point(1291, 10);
+            this.Btn_close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_close.Name = "Btn_close";
             this.Btn_close.ShadowDecoration.Parent = this.Btn_close;
-            this.Btn_close.Size = new System.Drawing.Size(34, 34);
+            this.Btn_close.Size = new System.Drawing.Size(45, 42);
             this.Btn_close.TabIndex = 15;
             this.Btn_close.Click += new System.EventHandler(this.Btn_close_Click);
             // 
@@ -1691,9 +1806,10 @@
             // 
             this.Lbl_openstat.AutoSize = true;
             this.Lbl_openstat.ForeColor = System.Drawing.SystemColors.Control;
-            this.Lbl_openstat.Location = new System.Drawing.Point(106, 21);
+            this.Lbl_openstat.Location = new System.Drawing.Point(141, 26);
+            this.Lbl_openstat.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_openstat.Name = "Lbl_openstat";
-            this.Lbl_openstat.Size = new System.Drawing.Size(35, 13);
+            this.Lbl_openstat.Size = new System.Drawing.Size(46, 17);
             this.Lbl_openstat.TabIndex = 17;
             this.Lbl_openstat.Text = "label4";
             // 
@@ -1701,75 +1817,12 @@
             // 
             this.Alert_timer2_hide.Tick += new System.EventHandler(this.Alert_timer2_hide_Tick);
             // 
-            // InputNum
-            // 
-            this.InputNum.Animated = true;
-            this.InputNum.BorderColor = System.Drawing.Color.Silver;
-            this.InputNum.BorderRadius = 5;
-            this.InputNum.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.InputNum.DefaultText = "";
-            this.InputNum.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.InputNum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.InputNum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.InputNum.DisabledState.Parent = this.InputNum;
-            this.InputNum.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.InputNum.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.InputNum.FocusedState.Parent = this.InputNum;
-            this.InputNum.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InputNum.ForeColor = System.Drawing.Color.Black;
-            this.InputNum.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.InputNum.HoverState.Parent = this.InputNum;
-            this.InputNum.Location = new System.Drawing.Point(362, 484);
-            this.InputNum.Margin = new System.Windows.Forms.Padding(5);
-            this.InputNum.Multiline = true;
-            this.InputNum.Name = "InputNum";
-            this.InputNum.PasswordChar = '\0';
-            this.InputNum.PlaceholderForeColor = System.Drawing.Color.DimGray;
-            this.InputNum.PlaceholderText = "Your phone number. (9979*****7)";
-            this.InputNum.SelectedText = "";
-            this.InputNum.ShadowDecoration.Parent = this.InputNum;
-            this.InputNum.Size = new System.Drawing.Size(268, 37);
-            this.InputNum.TabIndex = 36;
-            this.InputNum.TextChanged += new System.EventHandler(this.InputNum_TextChanged);
-            // 
-            // Btn_send_restric_msg
-            // 
-            this.Btn_send_restric_msg.Animated = true;
-            this.Btn_send_restric_msg.BorderRadius = 5;
-            this.Btn_send_restric_msg.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
-            this.Btn_send_restric_msg.CheckedState.Parent = this.Btn_send_restric_msg;
-            this.Btn_send_restric_msg.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Btn_send_restric_msg.CustomImages.Parent = this.Btn_send_restric_msg;
-            this.Btn_send_restric_msg.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
-            this.Btn_send_restric_msg.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.Btn_send_restric_msg.ForeColor = System.Drawing.Color.White;
-            this.Btn_send_restric_msg.HoverState.Parent = this.Btn_send_restric_msg;
-            this.Btn_send_restric_msg.Location = new System.Drawing.Point(638, 484);
-            this.Btn_send_restric_msg.Name = "Btn_send_restric_msg";
-            this.Btn_send_restric_msg.ShadowDecoration.Parent = this.Btn_send_restric_msg;
-            this.Btn_send_restric_msg.Size = new System.Drawing.Size(118, 39);
-            this.Btn_send_restric_msg.TabIndex = 37;
-            this.Btn_send_restric_msg.Text = "Send to me";
-            this.Btn_send_restric_msg.Click += new System.EventHandler(this.Btn_send_restric_msg_Click);
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label24.Location = new System.Drawing.Point(321, 492);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(43, 22);
-            this.label24.TabIndex = 35;
-            this.label24.Text = "+63";
-            // 
             // Setting_WF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1011, 658);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1348, 810);
             this.Controls.Add(this.Lbl_openstat);
             this.Controls.Add(this.Btn_close);
             this.Controls.Add(this.tabControl1);
@@ -1777,6 +1830,7 @@
             this.Controls.Add(this.label3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Setting_WF";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Setting_WF";
