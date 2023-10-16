@@ -117,10 +117,10 @@
             this.Btn_save_msg_restriction = new Guna.UI2.WinForms.Guna2Button();
             this.Btn_Save_age_setting = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
-            this.label3 = new System.Windows.Forms.Label();
             this.Btn_close = new Guna.UI2.WinForms.Guna2Button();
             this.Lbl_openstat = new System.Windows.Forms.Label();
             this.Alert_timer2_hide = new System.Windows.Forms.Timer(this.components);
+            this.label25 = new System.Windows.Forms.Label();
             this.guna2GroupBox4.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.Message_Customize.SuspendLayout();
@@ -606,10 +606,10 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tabControl1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tabControl1.ItemSize = new System.Drawing.Size(106, 30);
             this.tabControl1.Location = new System.Drawing.Point(0, 60);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.ShowToolTips = true;
@@ -644,9 +644,9 @@
             this.Message_Customize.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Message_Customize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Message_Customize.Location = new System.Drawing.Point(4, 34);
-            this.Message_Customize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Message_Customize.Margin = new System.Windows.Forms.Padding(4);
             this.Message_Customize.Name = "Message_Customize";
-            this.Message_Customize.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Message_Customize.Padding = new System.Windows.Forms.Padding(4);
             this.Message_Customize.Size = new System.Drawing.Size(1340, 712);
             this.Message_Customize.TabIndex = 0;
             this.Message_Customize.Text = "Message Customize";
@@ -670,7 +670,7 @@
             this.Alert_success2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(188)))), ((int)(((byte)(212)))));
             this.Alert_success2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Alert_success2.ForeColor = System.Drawing.Color.White;
-            this.Alert_success2.Location = new System.Drawing.Point(893, 206);
+            this.Alert_success2.Location = new System.Drawing.Point(860, 605);
             this.Alert_success2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Alert_success2.Name = "Alert_success2";
             this.Alert_success2.Size = new System.Drawing.Size(147, 25);
@@ -693,7 +693,7 @@
             this.Txt_msg_afterdate.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Txt_msg_afterdate.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_msg_afterdate.FocusedState.Parent = this.Txt_msg_afterdate;
-            this.Txt_msg_afterdate.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_msg_afterdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Txt_msg_afterdate.ForeColor = System.Drawing.Color.Black;
             this.Txt_msg_afterdate.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_msg_afterdate.HoverState.Parent = this.Txt_msg_afterdate;
@@ -726,7 +726,7 @@
             this.Txt_endmsg.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Txt_endmsg.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_endmsg.FocusedState.Parent = this.Txt_endmsg;
-            this.Txt_endmsg.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_endmsg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Txt_endmsg.ForeColor = System.Drawing.Color.Black;
             this.Txt_endmsg.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_endmsg.HoverState.Parent = this.Txt_endmsg;
@@ -759,7 +759,7 @@
             this.Txt_msg_afterStudent_name.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Txt_msg_afterStudent_name.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_msg_afterStudent_name.FocusedState.Parent = this.Txt_msg_afterStudent_name;
-            this.Txt_msg_afterStudent_name.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_msg_afterStudent_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Txt_msg_afterStudent_name.ForeColor = System.Drawing.Color.Black;
             this.Txt_msg_afterStudent_name.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_msg_afterStudent_name.HoverState.Parent = this.Txt_msg_afterStudent_name;
@@ -780,10 +780,10 @@
             // Message_richTextBox
             // 
             this.Message_richTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Message_richTextBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Message_richTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Message_richTextBox.ForeColor = System.Drawing.Color.Black;
             this.Message_richTextBox.Location = new System.Drawing.Point(39, 48);
-            this.Message_richTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Message_richTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.Message_richTextBox.Name = "Message_richTextBox";
             this.Message_richTextBox.Size = new System.Drawing.Size(1269, 153);
             this.Message_richTextBox.TabIndex = 23;
@@ -837,7 +837,7 @@
             this.Txt_msgentro.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Txt_msgentro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_msgentro.FocusedState.Parent = this.Txt_msgentro;
-            this.Txt_msgentro.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_msgentro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Txt_msgentro.ForeColor = System.Drawing.Color.Black;
             this.Txt_msgentro.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_msgentro.HoverState.Parent = this.Txt_msgentro;
@@ -858,12 +858,12 @@
             // 
             this.lbl_msg.AutoSize = true;
             this.lbl_msg.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_msg.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
+            this.lbl_msg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.lbl_msg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lbl_msg.Location = new System.Drawing.Point(33, 20);
             this.lbl_msg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_msg.Name = "lbl_msg";
-            this.lbl_msg.Size = new System.Drawing.Size(153, 23);
+            this.lbl_msg.Size = new System.Drawing.Size(155, 25);
             this.lbl_msg.TabIndex = 14;
             this.lbl_msg.Text = "Message Body";
             // 
@@ -882,7 +882,7 @@
             this.Txt_from.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Txt_from.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_from.FocusedState.Parent = this.Txt_from;
-            this.Txt_from.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_from.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Txt_from.ForeColor = System.Drawing.Color.Black;
             this.Txt_from.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Txt_from.HoverState.Parent = this.Txt_from;
@@ -906,13 +906,14 @@
             this.Btn_send.CheckedState.Parent = this.Btn_send;
             this.Btn_send.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_send.CustomImages.Parent = this.Btn_send;
-            this.Btn_send.FillColor = System.Drawing.Color.Black;
+            this.Btn_send.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_send.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.Btn_send.ForeColor = System.Drawing.Color.White;
             this.Btn_send.HoverState.Parent = this.Btn_send;
             this.Btn_send.Location = new System.Drawing.Point(459, 634);
-            this.Btn_send.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_send.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_send.Name = "Btn_send";
+            this.Btn_send.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_send.ShadowDecoration.Parent = this.Btn_send;
             this.Btn_send.Size = new System.Drawing.Size(157, 48);
             this.Btn_send.TabIndex = 22;
@@ -929,11 +930,12 @@
             this.Btn_save_msg_exit.CustomImages.Parent = this.Btn_save_msg_exit;
             this.Btn_save_msg_exit.FillColor = System.Drawing.Color.White;
             this.Btn_save_msg_exit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.Btn_save_msg_exit.ForeColor = System.Drawing.Color.Black;
+            this.Btn_save_msg_exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_save_msg_exit.HoverState.Parent = this.Btn_save_msg_exit;
             this.Btn_save_msg_exit.Location = new System.Drawing.Point(1091, 634);
-            this.Btn_save_msg_exit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_save_msg_exit.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_save_msg_exit.Name = "Btn_save_msg_exit";
+            this.Btn_save_msg_exit.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_save_msg_exit.ShadowDecoration.Parent = this.Btn_save_msg_exit;
             this.Btn_save_msg_exit.Size = new System.Drawing.Size(219, 48);
             this.Btn_save_msg_exit.TabIndex = 21;
@@ -949,12 +951,13 @@
             this.Btn_show_exit_msg.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_show_exit_msg.CustomImages.Parent = this.Btn_show_exit_msg;
             this.Btn_show_exit_msg.FillColor = System.Drawing.Color.White;
-            this.Btn_show_exit_msg.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_show_exit_msg.ForeColor = System.Drawing.Color.Black;
+            this.Btn_show_exit_msg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Btn_show_exit_msg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_show_exit_msg.HoverState.Parent = this.Btn_show_exit_msg;
             this.Btn_show_exit_msg.Location = new System.Drawing.Point(1091, 11);
-            this.Btn_show_exit_msg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_show_exit_msg.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_show_exit_msg.Name = "Btn_show_exit_msg";
+            this.Btn_show_exit_msg.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_show_exit_msg.ShadowDecoration.Parent = this.Btn_show_exit_msg;
             this.Btn_show_exit_msg.Size = new System.Drawing.Size(219, 33);
             this.Btn_show_exit_msg.TabIndex = 21;
@@ -968,12 +971,12 @@
             this.Btn_show_entry_msg.CheckedState.Parent = this.Btn_show_entry_msg;
             this.Btn_show_entry_msg.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_show_entry_msg.CustomImages.Parent = this.Btn_show_entry_msg;
-            this.Btn_show_entry_msg.FillColor = System.Drawing.Color.Black;
-            this.Btn_show_entry_msg.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_show_entry_msg.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.Btn_show_entry_msg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Btn_show_entry_msg.ForeColor = System.Drawing.Color.White;
             this.Btn_show_entry_msg.HoverState.Parent = this.Btn_show_entry_msg;
             this.Btn_show_entry_msg.Location = new System.Drawing.Point(865, 11);
-            this.Btn_show_entry_msg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_show_entry_msg.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_show_entry_msg.Name = "Btn_show_entry_msg";
             this.Btn_show_entry_msg.ShadowDecoration.Parent = this.Btn_show_entry_msg;
             this.Btn_show_entry_msg.Size = new System.Drawing.Size(219, 33);
@@ -988,13 +991,14 @@
             this.Btn_save_msg_entry.CheckedState.Parent = this.Btn_save_msg_entry;
             this.Btn_save_msg_entry.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_save_msg_entry.CustomImages.Parent = this.Btn_save_msg_entry;
-            this.Btn_save_msg_entry.FillColor = System.Drawing.Color.Black;
+            this.Btn_save_msg_entry.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_save_msg_entry.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.Btn_save_msg_entry.ForeColor = System.Drawing.Color.White;
             this.Btn_save_msg_entry.HoverState.Parent = this.Btn_save_msg_entry;
-            this.Btn_save_msg_entry.Location = new System.Drawing.Point(864, 634);
-            this.Btn_save_msg_entry.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_save_msg_entry.Location = new System.Drawing.Point(857, 634);
+            this.Btn_save_msg_entry.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_save_msg_entry.Name = "Btn_save_msg_entry";
+            this.Btn_save_msg_entry.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_save_msg_entry.ShadowDecoration.Parent = this.Btn_save_msg_entry;
             this.Btn_save_msg_entry.Size = new System.Drawing.Size(219, 48);
             this.Btn_save_msg_entry.TabIndex = 21;
@@ -1005,12 +1009,12 @@
             // 
             this.Lbl_endmsg.AutoSize = true;
             this.Lbl_endmsg.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_endmsg.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
-            this.Lbl_endmsg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Lbl_endmsg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.Lbl_endmsg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Lbl_endmsg.Location = new System.Drawing.Point(697, 468);
             this.Lbl_endmsg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_endmsg.Name = "Lbl_endmsg";
-            this.Lbl_endmsg.Size = new System.Drawing.Size(387, 23);
+            this.Lbl_endmsg.Size = new System.Drawing.Size(379, 25);
             this.Lbl_endmsg.TabIndex = 9;
             this.Lbl_endmsg.Text = "End message after body temperature :";
             // 
@@ -1018,12 +1022,12 @@
             // 
             this.Lbl_afterdate.AutoSize = true;
             this.Lbl_afterdate.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_afterdate.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
-            this.Lbl_afterdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Lbl_afterdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.Lbl_afterdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Lbl_afterdate.Location = new System.Drawing.Point(35, 468);
             this.Lbl_afterdate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_afterdate.Name = "Lbl_afterdate";
-            this.Lbl_afterdate.Size = new System.Drawing.Size(312, 23);
+            this.Lbl_afterdate.Size = new System.Drawing.Size(315, 25);
             this.Lbl_afterdate.TabIndex = 9;
             this.Lbl_afterdate.Text = "Message after Date and Time : ";
             // 
@@ -1031,12 +1035,12 @@
             // 
             this.Lbl_afterstname.AutoSize = true;
             this.Lbl_afterstname.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_afterstname.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
-            this.Lbl_afterstname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Lbl_afterstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.Lbl_afterstname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Lbl_afterstname.Location = new System.Drawing.Point(697, 342);
             this.Lbl_afterstname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_afterstname.Name = "Lbl_afterstname";
-            this.Lbl_afterstname.Size = new System.Drawing.Size(304, 23);
+            this.Lbl_afterstname.Size = new System.Drawing.Size(304, 25);
             this.Lbl_afterstname.TabIndex = 9;
             this.Lbl_afterstname.Text = "Message after student name : ";
             // 
@@ -1044,12 +1048,12 @@
             // 
             this.Lbl_msgentro.AutoSize = true;
             this.Lbl_msgentro.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_msgentro.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
-            this.Lbl_msgentro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Lbl_msgentro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.Lbl_msgentro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Lbl_msgentro.Location = new System.Drawing.Point(35, 342);
             this.Lbl_msgentro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_msgentro.Name = "Lbl_msgentro";
-            this.Lbl_msgentro.Size = new System.Drawing.Size(164, 23);
+            this.Lbl_msgentro.Size = new System.Drawing.Size(167, 25);
             this.Lbl_msgentro.TabIndex = 9;
             this.Lbl_msgentro.Text = "Message intro : ";
             // 
@@ -1058,7 +1062,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label1.Location = new System.Drawing.Point(36, 644);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -1070,12 +1074,12 @@
             // 
             this.Lbl_from.AutoSize = true;
             this.Lbl_from.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_from.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
-            this.Lbl_from.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Lbl_from.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.Lbl_from.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Lbl_from.Location = new System.Drawing.Point(33, 220);
             this.Lbl_from.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_from.Name = "Lbl_from";
-            this.Lbl_from.Size = new System.Drawing.Size(77, 23);
+            this.Lbl_from.Size = new System.Drawing.Size(80, 25);
             this.Lbl_from.TabIndex = 9;
             this.Lbl_from.Text = "From : ";
             // 
@@ -1086,9 +1090,9 @@
             this.Port_setting.Controls.Add(this.guna2ShadowPanel1);
             this.Port_setting.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Port_setting.Location = new System.Drawing.Point(4, 34);
-            this.Port_setting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Port_setting.Margin = new System.Windows.Forms.Padding(4);
             this.Port_setting.Name = "Port_setting";
-            this.Port_setting.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Port_setting.Padding = new System.Windows.Forms.Padding(4);
             this.Port_setting.Size = new System.Drawing.Size(1340, 712);
             this.Port_setting.TabIndex = 1;
             this.Port_setting.Text = "Port Connection";
@@ -1109,7 +1113,7 @@
             this.guna2ShadowPanel1.Controls.Add(this.cb_port_arduinoList);
             this.guna2ShadowPanel1.FillColor = System.Drawing.SystemColors.Control;
             this.guna2ShadowPanel1.Location = new System.Drawing.Point(359, 68);
-            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 5;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
@@ -1128,7 +1132,7 @@
             this.Refresh_.Image = global::AGPMS_application.Properties.Resources.icons8_refresh_208px;
             this.Refresh_.ImageSize = new System.Drawing.Size(25, 25);
             this.Refresh_.Location = new System.Drawing.Point(589, 15);
-            this.Refresh_.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Refresh_.Margin = new System.Windows.Forms.Padding(4);
             this.Refresh_.Name = "Refresh_";
             this.Refresh_.PressedState.ImageSize = new System.Drawing.Size(25, 25);
             this.Refresh_.PressedState.Parent = this.Refresh_;
@@ -1143,7 +1147,7 @@
             this.Alert_succes1.BorderRadius = 5;
             this.Alert_succes1.Controls.Add(this.label8);
             this.Alert_succes1.Location = new System.Drawing.Point(84, 101);
-            this.Alert_succes1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Alert_succes1.Margin = new System.Windows.Forms.Padding(4);
             this.Alert_succes1.Name = "Alert_succes1";
             this.Alert_succes1.ShadowDecoration.Parent = this.Alert_succes1;
             this.Alert_succes1.Size = new System.Drawing.Size(500, 52);
@@ -1170,7 +1174,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label2.Location = new System.Drawing.Point(41, 26);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -1193,7 +1197,7 @@
             this.cb_camera_entry.ItemHeight = 30;
             this.cb_camera_entry.ItemsAppearance.Parent = this.cb_camera_entry;
             this.cb_camera_entry.Location = new System.Drawing.Point(84, 192);
-            this.cb_camera_entry.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cb_camera_entry.Margin = new System.Windows.Forms.Padding(4);
             this.cb_camera_entry.Name = "cb_camera_entry";
             this.cb_camera_entry.ShadowDecoration.Parent = this.cb_camera_entry;
             this.cb_camera_entry.Size = new System.Drawing.Size(499, 36);
@@ -1220,12 +1224,12 @@
             this.Btn_Save.CheckedState.Parent = this.Btn_Save;
             this.Btn_Save.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_Save.CustomImages.Parent = this.Btn_Save;
-            this.Btn_Save.FillColor = System.Drawing.Color.Black;
+            this.Btn_Save.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_Save.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.Btn_Save.ForeColor = System.Drawing.Color.White;
             this.Btn_Save.HoverState.Parent = this.Btn_Save;
             this.Btn_Save.Location = new System.Drawing.Point(84, 430);
-            this.Btn_Save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_Save.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Save.Name = "Btn_Save";
             this.Btn_Save.ShadowDecoration.Parent = this.Btn_Save;
             this.Btn_Save.Size = new System.Drawing.Size(500, 48);
@@ -1248,7 +1252,7 @@
             this.cb_gsm_portlist.ItemHeight = 30;
             this.cb_gsm_portlist.ItemsAppearance.Parent = this.cb_gsm_portlist;
             this.cb_gsm_portlist.Location = new System.Drawing.Point(84, 348);
-            this.cb_gsm_portlist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cb_gsm_portlist.Margin = new System.Windows.Forms.Padding(4);
             this.cb_gsm_portlist.Name = "cb_gsm_portlist";
             this.cb_gsm_portlist.ShadowDecoration.Parent = this.cb_gsm_portlist;
             this.cb_gsm_portlist.Size = new System.Drawing.Size(499, 36);
@@ -1297,7 +1301,7 @@
             this.cb_port_arduinoList.ItemHeight = 30;
             this.cb_port_arduinoList.ItemsAppearance.Parent = this.cb_port_arduinoList;
             this.cb_port_arduinoList.Location = new System.Drawing.Point(84, 262);
-            this.cb_port_arduinoList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cb_port_arduinoList.Margin = new System.Windows.Forms.Padding(4);
             this.cb_port_arduinoList.Name = "cb_port_arduinoList";
             this.cb_port_arduinoList.ShadowDecoration.Parent = this.cb_port_arduinoList;
             this.cb_port_arduinoList.Size = new System.Drawing.Size(499, 36);
@@ -1308,9 +1312,9 @@
             this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage1.Controls.Add(this.guna2ShadowPanel2);
             this.tabPage1.Location = new System.Drawing.Point(4, 34);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(1340, 712);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "Age Restriction";
@@ -1342,7 +1346,7 @@
             this.guna2ShadowPanel2.Controls.Add(this.Btn_Save_age_setting);
             this.guna2ShadowPanel2.FillColor = System.Drawing.Color.White;
             this.guna2ShadowPanel2.Location = new System.Drawing.Point(15, 20);
-            this.guna2ShadowPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ShadowPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.Radius = 5;
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
@@ -1389,13 +1393,14 @@
             this.Btn_send_restric_msg.CheckedState.Parent = this.Btn_send_restric_msg;
             this.Btn_send_restric_msg.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_send_restric_msg.CustomImages.Parent = this.Btn_send_restric_msg;
-            this.Btn_send_restric_msg.FillColor = System.Drawing.Color.Black;
+            this.Btn_send_restric_msg.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_send_restric_msg.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.Btn_send_restric_msg.ForeColor = System.Drawing.Color.White;
             this.Btn_send_restric_msg.HoverState.Parent = this.Btn_send_restric_msg;
             this.Btn_send_restric_msg.Location = new System.Drawing.Point(37, 455);
-            this.Btn_send_restric_msg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_send_restric_msg.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_send_restric_msg.Name = "Btn_send_restric_msg";
+            this.Btn_send_restric_msg.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_send_restric_msg.ShadowDecoration.Parent = this.Btn_send_restric_msg;
             this.Btn_send_restric_msg.Size = new System.Drawing.Size(343, 48);
             this.Btn_send_restric_msg.TabIndex = 37;
@@ -1431,13 +1436,14 @@
             // Alert2
             // 
             this.Alert2.AutoSize = true;
-            this.Alert2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(188)))), ((int)(((byte)(212)))));
+            this.Alert2.BackColor = System.Drawing.Color.DodgerBlue;
             this.Alert2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Alert2.ForeColor = System.Drawing.Color.White;
-            this.Alert2.Location = new System.Drawing.Point(921, 212);
+            this.Alert2.Location = new System.Drawing.Point(751, 610);
             this.Alert2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Alert2.Name = "Alert2";
-            this.Alert2.Size = new System.Drawing.Size(147, 25);
+            this.Alert2.Padding = new System.Windows.Forms.Padding(10);
+            this.Alert2.Size = new System.Drawing.Size(167, 45);
             this.Alert2.TabIndex = 33;
             this.Alert2.Text = "Save success";
             this.Alert2.Visible = false;
@@ -1447,7 +1453,7 @@
             this.Message_age_restriction.AccessibleRole = System.Windows.Forms.AccessibleRole.WhiteSpace;
             this.Message_age_restriction.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Message_age_restriction.Location = new System.Drawing.Point(423, 44);
-            this.Message_age_restriction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Message_age_restriction.Margin = new System.Windows.Forms.Padding(4);
             this.Message_age_restriction.Name = "Message_age_restriction";
             this.Message_age_restriction.Size = new System.Drawing.Size(871, 159);
             this.Message_age_restriction.TabIndex = 32;
@@ -1632,12 +1638,12 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(33, 186);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(104, 18);
+            this.label6.Size = new System.Drawing.Size(114, 18);
             this.label6.TabIndex = 8;
             this.label6.Text = "FOR OLDEST";
             // 
@@ -1671,12 +1677,12 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(33, 108);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(128, 18);
+            this.label9.Size = new System.Drawing.Size(140, 18);
             this.label9.TabIndex = 10;
             this.label9.Text = "FOR YOUNGEST";
             // 
@@ -1686,7 +1692,7 @@
             this.Savesuccess.BorderRadius = 5;
             this.Savesuccess.Controls.Add(this.label4);
             this.Savesuccess.Location = new System.Drawing.Point(37, 44);
-            this.Savesuccess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Savesuccess.Margin = new System.Windows.Forms.Padding(4);
             this.Savesuccess.Name = "Savesuccess";
             this.Savesuccess.ShadowDecoration.Parent = this.Savesuccess;
             this.Savesuccess.Size = new System.Drawing.Size(343, 48);
@@ -1703,21 +1709,21 @@
             this.label4.Location = new System.Drawing.Point(89, 12);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(154, 25);
+            this.label4.Size = new System.Drawing.Size(147, 25);
             this.label4.TabIndex = 2;
-            this.label4.Text = "Save success!";
+            this.label4.Text = "Save success";
             // 
             // label5
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label5.Location = new System.Drawing.Point(33, 14);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(160, 23);
+            this.label5.Size = new System.Drawing.Size(158, 25);
             this.label5.TabIndex = 10;
             this.label5.Text = "Age Restriction";
             // 
@@ -1728,13 +1734,14 @@
             this.Btn_save_msg_restriction.CheckedState.Parent = this.Btn_save_msg_restriction;
             this.Btn_save_msg_restriction.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_save_msg_restriction.CustomImages.Parent = this.Btn_save_msg_restriction;
-            this.Btn_save_msg_restriction.FillColor = System.Drawing.Color.Black;
+            this.Btn_save_msg_restriction.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_save_msg_restriction.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.Btn_save_msg_restriction.ForeColor = System.Drawing.Color.White;
             this.Btn_save_msg_restriction.HoverState.Parent = this.Btn_save_msg_restriction;
-            this.Btn_save_msg_restriction.Location = new System.Drawing.Point(926, 596);
-            this.Btn_save_msg_restriction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_save_msg_restriction.Location = new System.Drawing.Point(926, 607);
+            this.Btn_save_msg_restriction.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_save_msg_restriction.Name = "Btn_save_msg_restriction";
+            this.Btn_save_msg_restriction.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_save_msg_restriction.ShadowDecoration.Parent = this.Btn_save_msg_restriction;
             this.Btn_save_msg_restriction.Size = new System.Drawing.Size(368, 48);
             this.Btn_save_msg_restriction.TabIndex = 11;
@@ -1751,11 +1758,12 @@
             this.Btn_Save_age_setting.CustomImages.Parent = this.Btn_Save_age_setting;
             this.Btn_Save_age_setting.FillColor = System.Drawing.Color.White;
             this.Btn_Save_age_setting.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.Btn_Save_age_setting.ForeColor = System.Drawing.Color.Black;
+            this.Btn_Save_age_setting.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_Save_age_setting.HoverState.Parent = this.Btn_Save_age_setting;
             this.Btn_Save_age_setting.Location = new System.Drawing.Point(37, 274);
-            this.Btn_Save_age_setting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_Save_age_setting.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Save_age_setting.Name = "Btn_Save_age_setting";
+            this.Btn_Save_age_setting.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_Save_age_setting.ShadowDecoration.Parent = this.Btn_Save_age_setting;
             this.Btn_Save_age_setting.Size = new System.Drawing.Size(343, 48);
             this.Btn_Save_age_setting.TabIndex = 11;
@@ -1765,23 +1773,10 @@
             // guna2Separator1
             // 
             this.guna2Separator1.Location = new System.Drawing.Point(0, 48);
-            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Separator1.Name = "guna2Separator1";
             this.guna2Separator1.Size = new System.Drawing.Size(1477, 16);
             this.guna2Separator1.TabIndex = 16;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(15, 17);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 27);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Settings";
             // 
             // Btn_close
             // 
@@ -1789,13 +1784,13 @@
             this.Btn_close.BorderRadius = 10;
             this.Btn_close.CheckedState.Parent = this.Btn_close;
             this.Btn_close.CustomImages.Parent = this.Btn_close;
-            this.Btn_close.FillColor = System.Drawing.Color.Black;
+            this.Btn_close.FillColor = System.Drawing.Color.Transparent;
             this.Btn_close.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Btn_close.ForeColor = System.Drawing.Color.White;
             this.Btn_close.HoverState.Parent = this.Btn_close;
-            this.Btn_close.Image = global::AGPMS_application.Properties.Resources.Close;
+            this.Btn_close.Image = global::AGPMS_application.Properties.Resources.icons8_close_22;
             this.Btn_close.Location = new System.Drawing.Point(1291, 10);
-            this.Btn_close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_close.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_close.Name = "Btn_close";
             this.Btn_close.ShadowDecoration.Parent = this.Btn_close;
             this.Btn_close.Size = new System.Drawing.Size(45, 42);
@@ -1817,20 +1812,33 @@
             // 
             this.Alert_timer2_hide.Tick += new System.EventHandler(this.Alert_timer2_hide_Tick);
             // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.label25.Location = new System.Drawing.Point(13, 18);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(91, 25);
+            this.label25.TabIndex = 18;
+            this.label25.Text = "Settings";
+            // 
             // Setting_WF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1348, 810);
+            this.Controls.Add(this.label25);
             this.Controls.Add(this.Lbl_openstat);
             this.Controls.Add(this.Btn_close);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.guna2Separator1);
-            this.Controls.Add(this.label3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Setting_WF";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Setting_WF";
@@ -1921,7 +1929,6 @@
         private Guna.UI2.WinForms.Guna2Button Btn_show_exit_msg;
         private Guna.UI2.WinForms.Guna2Button Btn_show_entry_msg;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2ImageButton Refresh_;
         public System.Windows.Forms.Label Lbl_openstat;
         private System.Windows.Forms.TabPage tabPage1;
@@ -1950,5 +1957,6 @@
         private Guna.UI2.WinForms.Guna2TextBox InputNum;
         private Guna.UI2.WinForms.Guna2Button Btn_send_restric_msg;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
     }
 }

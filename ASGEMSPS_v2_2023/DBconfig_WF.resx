@@ -121,15 +121,6 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Btn_close.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAMBJREFUOE/V
-        lFEKwjAQBVPEL6HH1wvon15Dj1VnYIMNrUmUfujAQJrdfdAmNP0X0zQdcBePTex1Jh5LKIz4wLONsf0W
-        e6L3jmNsv2BzwBPKFfdRWmANbzbCEYcolVjAaqh72A7L2ICroa6xPyxjIxah4edhGQb86BenwY8/X3ff
-        hAIHMQfJ92HC8Pw1pXr6VRjc7pUZWBxA2HVPC2zE1dN0jf2hNmD1ariH7VAL2HXPrGE9lM1tfw5CYbvf
-        14+S0hPxM8UEYdOtqAAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAgAEBAAAAEAIABoBAAAhgAAABgYAAABACAAiAkAAO4EAAAgIAAAAQAgAKgQAAB2DgAAMDAAAAEA

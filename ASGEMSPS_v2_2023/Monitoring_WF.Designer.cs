@@ -45,10 +45,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbl_usertype = new System.Windows.Forms.Label();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.Guard_img = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.Lbl_timein = new System.Windows.Forms.Label();
             this.Lbl_guardname = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -72,6 +68,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel_exit_wrapper = new System.Windows.Forms.Panel();
+            this.exit_monitor_Controller1 = new AGPMS_application.Exit_monitor_Controller();
             this.panel_container_1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -81,25 +78,28 @@
             this.Lbl_waiting_loader = new System.Windows.Forms.Label();
             this.Loadnig = new System.Windows.Forms.Timer(this.components);
             this.Closing_wf_load = new System.Windows.Forms.Timer(this.components);
+            this.Btn_ClickMe = new Guna.UI2.WinForms.Guna2Button();
+            this.Lbl_age_restrict = new System.Windows.Forms.Label();
             this.Btn_close = new Guna.UI2.WinForms.Guna2Button();
+            this.Guard_img = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.Btn_settings = new Guna.UI2.WinForms.Guna2Button();
             this.Btn_Gshifting = new Guna.UI2.WinForms.Guna2Button();
             this.Btn_admin = new Guna.UI2.WinForms.Guna2Button();
-            this.Btn_ClickMe = new Guna.UI2.WinForms.Guna2Button();
-            this.Lbl_age_restrict = new System.Windows.Forms.Label();
-            this.exit_monitor_Controller1 = new AGPMS_application.Exit_monitor_Controller();
             this.panel_body.SuspendLayout();
             this.guna2ShadowPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Guard_img)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.panel_wrapper.SuspendLayout();
             this.panel_container_2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel_exit_wrapper.SuspendLayout();
             this.panel_container_1.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Guard_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Elipse1
@@ -146,8 +146,8 @@
             this.TSwitch_Restriction.ShadowDecoration.Parent = this.TSwitch_Restriction;
             this.TSwitch_Restriction.Size = new System.Drawing.Size(64, 27);
             this.TSwitch_Restriction.TabIndex = 9;
-            this.TSwitch_Restriction.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.TSwitch_Restriction.UncheckedState.FillColor = System.Drawing.Color.Black;
+            this.TSwitch_Restriction.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.TSwitch_Restriction.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.TSwitch_Restriction.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.TSwitch_Restriction.UncheckedState.InnerColor = System.Drawing.Color.White;
             this.TSwitch_Restriction.UncheckedState.Parent = this.TSwitch_Restriction;
@@ -158,7 +158,7 @@
             this.lbl_agerestriction.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_agerestriction.AutoSize = true;
             this.lbl_agerestriction.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_agerestriction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lbl_agerestriction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.lbl_agerestriction.Location = new System.Drawing.Point(1305, 22);
             this.lbl_agerestriction.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_agerestriction.Name = "lbl_agerestriction";
@@ -232,7 +232,7 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel2.Location = new System.Drawing.Point(1699, 1058);
+            this.panel2.Location = new System.Drawing.Point(1699, 1099);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(83, 91);
@@ -244,12 +244,12 @@
             this.lbl_usertype.AutoSize = true;
             this.lbl_usertype.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_usertype.ForeColor = System.Drawing.Color.Silver;
-            this.lbl_usertype.Location = new System.Drawing.Point(51, 1109);
+            this.lbl_usertype.Location = new System.Drawing.Point(43, 1111);
             this.lbl_usertype.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_usertype.Name = "lbl_usertype";
-            this.lbl_usertype.Size = new System.Drawing.Size(207, 22);
+            this.lbl_usertype.Size = new System.Drawing.Size(506, 22);
             this.lbl_usertype.TabIndex = 29;
-            this.lbl_usertype.Text = "Created @ 2021-2022";
+            this.lbl_usertype.Text = "Copyright  Ⓒ ESGEMSPS .All Right Reserve 2021-2022";
             // 
             // guna2ShadowPanel1
             // 
@@ -277,8 +277,8 @@
             this.guna2ShadowPanel1.Controls.Add(this.label7);
             this.guna2ShadowPanel1.Controls.Add(this.label6);
             this.guna2ShadowPanel1.Controls.Add(this.label3);
-            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(45, 837);
+            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(47, 858);
             this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 5;
@@ -286,58 +286,6 @@
             this.guna2ShadowPanel1.ShadowDepth = 90;
             this.guna2ShadowPanel1.Size = new System.Drawing.Size(1735, 224);
             this.guna2ShadowPanel1.TabIndex = 15;
-            // 
-            // Guard_img
-            // 
-            this.Guard_img.Image = ((System.Drawing.Image)(resources.GetObject("Guard_img.Image")));
-            this.Guard_img.Location = new System.Drawing.Point(1583, 68);
-            this.Guard_img.Margin = new System.Windows.Forms.Padding(4);
-            this.Guard_img.Name = "Guard_img";
-            this.Guard_img.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.Guard_img.ShadowDecoration.Parent = this.Guard_img;
-            this.Guard_img.Size = new System.Drawing.Size(129, 118);
-            this.Guard_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Guard_img.TabIndex = 32;
-            this.Guard_img.TabStop = false;
-            // 
-            // guna2CirclePictureBox3
-            // 
-            this.guna2CirclePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox3.Image")));
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(1151, 63);
-            this.guna2CirclePictureBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
-            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox3.ShadowDecoration.Parent = this.guna2CirclePictureBox3;
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(129, 118);
-            this.guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2CirclePictureBox3.TabIndex = 32;
-            this.guna2CirclePictureBox3.TabStop = false;
-            // 
-            // guna2CirclePictureBox2
-            // 
-            this.guna2CirclePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox2.Image")));
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(721, 63);
-            this.guna2CirclePictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
-            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.ShadowDecoration.Parent = this.guna2CirclePictureBox2;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(129, 118);
-            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2CirclePictureBox2.TabIndex = 32;
-            this.guna2CirclePictureBox2.TabStop = false;
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(291, 63);
-            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(129, 118);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2CirclePictureBox1.TabIndex = 32;
-            this.guna2CirclePictureBox1.TabStop = false;
             // 
             // Lbl_timein
             // 
@@ -383,7 +331,7 @@
             this.Lbl_id.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Lbl_id.AutoSize = true;
             this.Lbl_id.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
+            this.Lbl_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Lbl_id.Location = new System.Drawing.Point(1329, 54);
             this.Lbl_id.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_id.Name = "Lbl_id";
@@ -561,7 +509,7 @@
             this.panel_wrapper.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel_wrapper.Controls.Add(this.panel_container_2);
             this.panel_wrapper.Controls.Add(this.panel_container_1);
-            this.panel_wrapper.Location = new System.Drawing.Point(45, 22);
+            this.panel_wrapper.Location = new System.Drawing.Point(46, 30);
             this.panel_wrapper.Margin = new System.Windows.Forms.Padding(4);
             this.panel_wrapper.Name = "panel_wrapper";
             this.panel_wrapper.Size = new System.Drawing.Size(1736, 804);
@@ -615,6 +563,17 @@
             this.panel_exit_wrapper.Name = "panel_exit_wrapper";
             this.panel_exit_wrapper.Size = new System.Drawing.Size(453, 758);
             this.panel_exit_wrapper.TabIndex = 0;
+            // 
+            // exit_monitor_Controller1
+            // 
+            this.exit_monitor_Controller1.BackColor = System.Drawing.Color.White;
+            this.exit_monitor_Controller1.Location = new System.Drawing.Point(0, 0);
+            this.exit_monitor_Controller1.Margin = new System.Windows.Forms.Padding(5);
+            this.exit_monitor_Controller1.Name = "exit_monitor_Controller1";
+            this.exit_monitor_Controller1.Size = new System.Drawing.Size(453, 758);
+            this.exit_monitor_Controller1.TabIndex = 0;
+            this.exit_monitor_Controller1.Load += new System.EventHandler(this.Exit_monitor_Controller1_Load);
+            this.exit_monitor_Controller1.Click += new System.EventHandler(this.Exit_monitor_Controller1_Click);
             // 
             // panel_container_1
             // 
@@ -687,15 +646,15 @@
             this.Waiting_loader.Location = new System.Drawing.Point(603, 14);
             this.Waiting_loader.Margin = new System.Windows.Forms.Padding(4);
             this.Waiting_loader.Name = "Waiting_loader";
-            this.Waiting_loader.ProgressColor = System.Drawing.Color.MidnightBlue;
-            this.Waiting_loader.ProgressColor2 = System.Drawing.Color.MidnightBlue;
+            this.Waiting_loader.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.Waiting_loader.ProgressColor2 = System.Drawing.Color.MediumSlateBlue;
             this.Waiting_loader.ProgressEndCap = System.Drawing.Drawing2D.LineCap.Round;
             this.Waiting_loader.ProgressStartCap = System.Drawing.Drawing2D.LineCap.Round;
             this.Waiting_loader.ProgressThickness = 8;
             this.Waiting_loader.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Waiting_loader.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.Waiting_loader.ShadowDecoration.Parent = this.Waiting_loader;
-            this.Waiting_loader.Size = new System.Drawing.Size(47, 43);
+            this.Waiting_loader.Size = new System.Drawing.Size(47, 44);
             this.Waiting_loader.TabIndex = 15;
             this.Waiting_loader.Value = 1;
             this.Waiting_loader.Visible = false;
@@ -723,17 +682,56 @@
             this.Closing_wf_load.Interval = 30;
             this.Closing_wf_load.Tick += new System.EventHandler(this.Closing_wf_load_Tick);
             // 
+            // Btn_ClickMe
+            // 
+            this.Btn_ClickMe.Animated = true;
+            this.Btn_ClickMe.BackColor = System.Drawing.Color.Transparent;
+            this.Btn_ClickMe.BorderRadius = 5;
+            this.Btn_ClickMe.BorderThickness = 2;
+            this.Btn_ClickMe.CheckedState.Parent = this.Btn_ClickMe;
+            this.Btn_ClickMe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Btn_ClickMe.CustomImages.Parent = this.Btn_ClickMe;
+            this.Btn_ClickMe.FillColor = System.Drawing.Color.White;
+            this.Btn_ClickMe.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.Btn_ClickMe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.Btn_ClickMe.HoverState.BorderColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn_ClickMe.HoverState.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn_ClickMe.HoverState.Parent = this.Btn_ClickMe;
+            this.Btn_ClickMe.Location = new System.Drawing.Point(1155, 15);
+            this.Btn_ClickMe.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_ClickMe.Name = "Btn_ClickMe";
+            this.Btn_ClickMe.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.Btn_ClickMe.ShadowDecoration.Parent = this.Btn_ClickMe;
+            this.Btn_ClickMe.Size = new System.Drawing.Size(128, 36);
+            this.Btn_ClickMe.TabIndex = 8;
+            this.Btn_ClickMe.Text = "Refresh";
+            this.Btn_ClickMe.Visible = false;
+            this.Btn_ClickMe.Click += new System.EventHandler(this.Btn_ClickMe_Click);
+            // 
+            // Lbl_age_restrict
+            // 
+            this.Lbl_age_restrict.AutoSize = true;
+            this.Lbl_age_restrict.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_age_restrict.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.Lbl_age_restrict.Location = new System.Drawing.Point(657, 23);
+            this.Lbl_age_restrict.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_age_restrict.Name = "Lbl_age_restrict";
+            this.Lbl_age_restrict.Size = new System.Drawing.Size(163, 22);
+            this.Lbl_age_restrict.TabIndex = 10;
+            this.Lbl_age_restrict.Text = "Age Restriction: ";
+            this.Lbl_age_restrict.Visible = false;
+            // 
             // Btn_close
             // 
             this.Btn_close.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_close.BorderRadius = 2;
             this.Btn_close.CheckedState.Parent = this.Btn_close;
             this.Btn_close.CustomImages.Parent = this.Btn_close;
-            this.Btn_close.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Btn_close.FillColor = System.Drawing.Color.White;
             this.Btn_close.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Btn_close.ForeColor = System.Drawing.Color.White;
             this.Btn_close.HoverState.Parent = this.Btn_close;
-            this.Btn_close.Image = ((System.Drawing.Image)(resources.GetObject("Btn_close.Image")));
+            this.Btn_close.Image = global::AGPMS_application.Properties.Resources.icons8_close_22;
             this.Btn_close.Location = new System.Drawing.Point(1759, 10);
             this.Btn_close.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_close.Name = "Btn_close";
@@ -741,6 +739,58 @@
             this.Btn_close.Size = new System.Drawing.Size(45, 42);
             this.Btn_close.TabIndex = 14;
             this.Btn_close.Click += new System.EventHandler(this.Btn_close_Click);
+            // 
+            // Guard_img
+            // 
+            this.Guard_img.Image = global::AGPMS_application.Properties.Resources.Security_pana;
+            this.Guard_img.Location = new System.Drawing.Point(1583, 68);
+            this.Guard_img.Margin = new System.Windows.Forms.Padding(4);
+            this.Guard_img.Name = "Guard_img";
+            this.Guard_img.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Guard_img.ShadowDecoration.Parent = this.Guard_img;
+            this.Guard_img.Size = new System.Drawing.Size(129, 118);
+            this.Guard_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Guard_img.TabIndex = 32;
+            this.Guard_img.TabStop = false;
+            // 
+            // guna2CirclePictureBox3
+            // 
+            this.guna2CirclePictureBox3.Image = global::AGPMS_application.Properties.Resources.Temperature_Measurement_amico;
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(1151, 63);
+            this.guna2CirclePictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
+            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox3.ShadowDecoration.Parent = this.guna2CirclePictureBox3;
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(129, 118);
+            this.guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox3.TabIndex = 32;
+            this.guna2CirclePictureBox3.TabStop = false;
+            // 
+            // guna2CirclePictureBox2
+            // 
+            this.guna2CirclePictureBox2.Image = global::AGPMS_application.Properties.Resources.college_campus_amico;
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(721, 63);
+            this.guna2CirclePictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.ShadowDecoration.Parent = this.guna2CirclePictureBox2;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(129, 118);
+            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox2.TabIndex = 32;
+            this.guna2CirclePictureBox2.TabStop = false;
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.Image = global::AGPMS_application.Properties.Resources.High_School_amico;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(291, 63);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(129, 118);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox1.TabIndex = 32;
+            this.guna2CirclePictureBox1.TabStop = false;
             // 
             // Btn_settings
             // 
@@ -751,7 +801,7 @@
             this.Btn_settings.CheckedState.Parent = this.Btn_settings;
             this.Btn_settings.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_settings.CustomImages.Parent = this.Btn_settings;
-            this.Btn_settings.FillColor = System.Drawing.Color.Black;
+            this.Btn_settings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_settings.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.Btn_settings.ForeColor = System.Drawing.Color.White;
             this.Btn_settings.HoverState.BorderColor = System.Drawing.Color.MediumSeaGreen;
@@ -776,7 +826,7 @@
             this.Btn_Gshifting.CheckedState.Parent = this.Btn_Gshifting;
             this.Btn_Gshifting.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_Gshifting.CustomImages.Parent = this.Btn_Gshifting;
-            this.Btn_Gshifting.FillColor = System.Drawing.Color.Black;
+            this.Btn_Gshifting.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_Gshifting.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.Btn_Gshifting.ForeColor = System.Drawing.Color.White;
             this.Btn_Gshifting.HoverState.BorderColor = System.Drawing.Color.MediumSeaGreen;
@@ -801,7 +851,7 @@
             this.Btn_admin.CheckedState.Parent = this.Btn_admin;
             this.Btn_admin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_admin.CustomImages.Parent = this.Btn_admin;
-            this.Btn_admin.FillColor = System.Drawing.Color.Black;
+            this.Btn_admin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_admin.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.Btn_admin.ForeColor = System.Drawing.Color.White;
             this.Btn_admin.HoverState.BorderColor = System.Drawing.Color.MediumSeaGreen;
@@ -816,55 +866,6 @@
             this.Btn_admin.TabIndex = 8;
             this.Btn_admin.Text = "Admin";
             this.Btn_admin.Click += new System.EventHandler(this.Btn_admin_Click);
-            // 
-            // Btn_ClickMe
-            // 
-            this.Btn_ClickMe.Animated = true;
-            this.Btn_ClickMe.BackColor = System.Drawing.Color.Transparent;
-            this.Btn_ClickMe.BorderRadius = 5;
-            this.Btn_ClickMe.BorderThickness = 2;
-            this.Btn_ClickMe.CheckedState.Parent = this.Btn_ClickMe;
-            this.Btn_ClickMe.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Btn_ClickMe.CustomImages.Parent = this.Btn_ClickMe;
-            this.Btn_ClickMe.FillColor = System.Drawing.Color.White;
-            this.Btn_ClickMe.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.Btn_ClickMe.ForeColor = System.Drawing.Color.Black;
-            this.Btn_ClickMe.HoverState.BorderColor = System.Drawing.Color.MediumSeaGreen;
-            this.Btn_ClickMe.HoverState.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.Btn_ClickMe.HoverState.Parent = this.Btn_ClickMe;
-            this.Btn_ClickMe.Location = new System.Drawing.Point(1155, 15);
-            this.Btn_ClickMe.Margin = new System.Windows.Forms.Padding(4);
-            this.Btn_ClickMe.Name = "Btn_ClickMe";
-            this.Btn_ClickMe.ShadowDecoration.Parent = this.Btn_ClickMe;
-            this.Btn_ClickMe.Size = new System.Drawing.Size(128, 36);
-            this.Btn_ClickMe.TabIndex = 8;
-            this.Btn_ClickMe.Text = "Refresh";
-            this.Btn_ClickMe.Visible = false;
-            this.Btn_ClickMe.Click += new System.EventHandler(this.Btn_ClickMe_Click);
-            // 
-            // Lbl_age_restrict
-            // 
-            this.Lbl_age_restrict.AutoSize = true;
-            this.Lbl_age_restrict.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_age_restrict.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Lbl_age_restrict.Location = new System.Drawing.Point(657, 23);
-            this.Lbl_age_restrict.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lbl_age_restrict.Name = "Lbl_age_restrict";
-            this.Lbl_age_restrict.Size = new System.Drawing.Size(163, 22);
-            this.Lbl_age_restrict.TabIndex = 10;
-            this.Lbl_age_restrict.Text = "Age Restriction: ";
-            this.Lbl_age_restrict.Visible = false;
-            // 
-            // exit_monitor_Controller1
-            // 
-            this.exit_monitor_Controller1.BackColor = System.Drawing.Color.White;
-            this.exit_monitor_Controller1.Location = new System.Drawing.Point(0, 0);
-            this.exit_monitor_Controller1.Margin = new System.Windows.Forms.Padding(5);
-            this.exit_monitor_Controller1.Name = "exit_monitor_Controller1";
-            this.exit_monitor_Controller1.Size = new System.Drawing.Size(453, 758);
-            this.exit_monitor_Controller1.TabIndex = 0;
-            this.exit_monitor_Controller1.Load += new System.EventHandler(this.Exit_monitor_Controller1_Load);
-            this.exit_monitor_Controller1.Click += new System.EventHandler(this.Exit_monitor_Controller1_Click);
             // 
             // Monitoring_WF
             // 
@@ -899,10 +900,6 @@
             this.panel_body.PerformLayout();
             this.guna2ShadowPanel1.ResumeLayout(false);
             this.guna2ShadowPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Guard_img)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.panel_wrapper.ResumeLayout(false);
             this.panel_container_2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -911,6 +908,10 @@
             this.panel_container_1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Guard_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

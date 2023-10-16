@@ -44,24 +44,25 @@
             this.formshadow = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.DragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.label6 = new System.Windows.Forms.Label();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Btn_close = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_Submit
             // 
             this.btn_Submit.Animated = true;
+            this.btn_Submit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btn_Submit.BorderRadius = 5;
             this.btn_Submit.CheckedState.Parent = this.btn_Submit;
             this.btn_Submit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Submit.CustomImages.Parent = this.btn_Submit;
-            this.btn_Submit.FillColor = System.Drawing.Color.Black;
+            this.btn_Submit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btn_Submit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.btn_Submit.ForeColor = System.Drawing.Color.White;
             this.btn_Submit.HoverState.Parent = this.btn_Submit;
-            this.btn_Submit.Location = new System.Drawing.Point(65, 545);
-            this.btn_Submit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Submit.Location = new System.Drawing.Point(47, 355);
+            this.btn_Submit.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Submit.Name = "btn_Submit";
             this.btn_Submit.ShadowDecoration.Parent = this.btn_Submit;
             this.btn_Submit.Size = new System.Drawing.Size(405, 49);
@@ -87,7 +88,7 @@
             this.txt_pass.ForeColor = System.Drawing.Color.Black;
             this.txt_pass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_pass.HoverState.Parent = this.txt_pass;
-            this.txt_pass.Location = new System.Drawing.Point(64, 481);
+            this.txt_pass.Location = new System.Drawing.Point(46, 291);
             this.txt_pass.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.txt_pass.Name = "txt_pass";
             this.txt_pass.PasswordChar = '*';
@@ -116,7 +117,7 @@
             this.txt_root.ForeColor = System.Drawing.Color.Black;
             this.txt_root.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_root.HoverState.Parent = this.txt_root;
-            this.txt_root.Location = new System.Drawing.Point(64, 389);
+            this.txt_root.Location = new System.Drawing.Point(46, 199);
             this.txt_root.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.txt_root.Name = "txt_root";
             this.txt_root.PasswordChar = '\0';
@@ -145,7 +146,7 @@
             this.txt_Server.ForeColor = System.Drawing.Color.Black;
             this.txt_Server.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_Server.HoverState.Parent = this.txt_Server;
-            this.txt_Server.Location = new System.Drawing.Point(64, 299);
+            this.txt_Server.Location = new System.Drawing.Point(46, 109);
             this.txt_Server.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.txt_Server.Name = "txt_Server";
             this.txt_Server.PasswordChar = '\0';
@@ -162,7 +163,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(60, 449);
+            this.label4.Location = new System.Drawing.Point(42, 259);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(101, 28);
@@ -175,7 +176,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(60, 356);
+            this.label3.Location = new System.Drawing.Point(42, 166);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(106, 28);
@@ -188,7 +189,7 @@
             this.pass_err.BackColor = System.Drawing.Color.Transparent;
             this.pass_err.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pass_err.ForeColor = System.Drawing.Color.White;
-            this.pass_err.Location = new System.Drawing.Point(349, 446);
+            this.pass_err.Location = new System.Drawing.Point(331, 256);
             this.pass_err.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.pass_err.Name = "pass_err";
             this.pass_err.Size = new System.Drawing.Size(20, 28);
@@ -201,7 +202,7 @@
             this.user_err.BackColor = System.Drawing.Color.Transparent;
             this.user_err.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.user_err.ForeColor = System.Drawing.Color.White;
-            this.user_err.Location = new System.Drawing.Point(349, 356);
+            this.user_err.Location = new System.Drawing.Point(331, 166);
             this.user_err.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user_err.Name = "user_err";
             this.user_err.Size = new System.Drawing.Size(20, 28);
@@ -214,7 +215,7 @@
             this.server_err.BackColor = System.Drawing.Color.Transparent;
             this.server_err.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.server_err.ForeColor = System.Drawing.Color.White;
-            this.server_err.Location = new System.Drawing.Point(349, 268);
+            this.server_err.Location = new System.Drawing.Point(331, 78);
             this.server_err.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.server_err.Name = "server_err";
             this.server_err.Size = new System.Drawing.Size(20, 28);
@@ -227,7 +228,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(60, 268);
+            this.label1.Location = new System.Drawing.Point(42, 78);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 28);
@@ -250,27 +251,12 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.Location = new System.Drawing.Point(13, 14);
+            this.label6.Location = new System.Drawing.Point(42, 9);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(261, 25);
+            this.label6.Size = new System.Drawing.Size(192, 25);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Server Connection Config";
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::AGPMS_application.Properties.Resources.ASGEMSPS_Logo;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(115, 95);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(318, 146);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 10;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
+            this.label6.Text = "Server Connection";
             // 
             // Btn_close
             // 
@@ -278,18 +264,33 @@
             this.Btn_close.BorderRadius = 10;
             this.Btn_close.CheckedState.Parent = this.Btn_close;
             this.Btn_close.CustomImages.Parent = this.Btn_close;
-            this.Btn_close.FillColor = System.Drawing.Color.Black;
+            this.Btn_close.FillColor = System.Drawing.Color.Transparent;
             this.Btn_close.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Btn_close.ForeColor = System.Drawing.Color.White;
             this.Btn_close.HoverState.Parent = this.Btn_close;
-            this.Btn_close.Image = ((System.Drawing.Image)(resources.GetObject("Btn_close.Image")));
-            this.Btn_close.Location = new System.Drawing.Point(482, 9);
-            this.Btn_close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_close.Image = global::AGPMS_application.Properties.Resources.icons8_close_22;
+            this.Btn_close.Location = new System.Drawing.Point(908, 9);
+            this.Btn_close.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_close.Name = "Btn_close";
             this.Btn_close.ShadowDecoration.Parent = this.Btn_close;
             this.Btn_close.Size = new System.Drawing.Size(45, 42);
             this.Btn_close.TabIndex = 15;
             this.Btn_close.Click += new System.EventHandler(this.Btn_close_Click);
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::AGPMS_application.Properties.Resources.Secure_Server_amico;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(481, 59);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(442, 374);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 10;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // DBconfig_WF
             // 
@@ -297,7 +298,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(541, 656);
+            this.ClientSize = new System.Drawing.Size(967, 485);
             this.Controls.Add(this.Btn_close);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.label6);
@@ -313,7 +314,7 @@
             this.Controls.Add(this.txt_pass);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DBconfig_WF";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DBconfig_WF";

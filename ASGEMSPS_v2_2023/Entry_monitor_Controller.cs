@@ -49,6 +49,7 @@ namespace AGPMS_application
             instance = this;
         }
 
+
         private void Entry_monitor_Controller_Load(object sender, EventArgs e)
         {
             Cb_cameraList.Items.Clear();
@@ -387,10 +388,10 @@ namespace AGPMS_application
                 }
                 else
                 {
-                    Console.WriteLine("Student id is not found in database record!");
+                    Console.WriteLine("Student ID is not found in database record!");
                     reader.Close();
                     connection.Close();
-                    this.Alert("Student id is not found in database record!", Form_Alert.EnmType.Warning);
+                    this.Alert("Student ID is not found in database record!", Form_Alert.EnmType.Warning);
                     Thread.Sleep(1000);
                     Scan_timer.Start();
                     Exit_monitor_Controller.instance.ActiveQrTxtboxFocus();
@@ -553,6 +554,11 @@ namespace AGPMS_application
                 this.Alert("Action Store Error! "+ex.Message, Form_Alert.EnmType.Warning);
                 Exit_monitor_Controller.instance.ActiveQrTxtboxFocus();
             }
+        }
+
+        private void Label7_Click(object sender, EventArgs e)
+        {
+
         }
 
 

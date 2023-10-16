@@ -51,13 +51,14 @@
             this.lbl_nomal = new System.Windows.Forms.Label();
             this.Cb_cameraList = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.Qr_cam_scan = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.user_img = new System.Windows.Forms.PictureBox();
             this.Scan_timer = new System.Windows.Forms.Timer(this.components);
             this.Reload_tempval = new System.Windows.Forms.Timer(this.components);
             this.Camera_status = new System.Windows.Forms.Timer(this.components);
             this.Lbl_temp2 = new System.Windows.Forms.Label();
+            this.Qr_cam_scan = new System.Windows.Forms.PictureBox();
+            this.user_img = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel_infocard.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Qr_cam_scan)).BeginInit();
@@ -95,7 +96,7 @@
             this.Lbl_user_type.AutoSize = true;
             this.Lbl_user_type.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_user_type.ForeColor = System.Drawing.Color.Silver;
-            this.Lbl_user_type.Location = new System.Drawing.Point(71, 18);
+            this.Lbl_user_type.Location = new System.Drawing.Point(77, 18);
             this.Lbl_user_type.Name = "Lbl_user_type";
             this.Lbl_user_type.Size = new System.Drawing.Size(101, 22);
             this.Lbl_user_type.TabIndex = 29;
@@ -133,7 +134,7 @@
             // 
             this.Lbl_user_id.AutoSize = true;
             this.Lbl_user_id.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_user_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Lbl_user_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Lbl_user_id.Location = new System.Drawing.Point(20, 77);
             this.Lbl_user_id.Name = "Lbl_user_id";
             this.Lbl_user_id.Size = new System.Drawing.Size(49, 22);
@@ -144,8 +145,8 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label9.Location = new System.Drawing.Point(20, 238);
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.label9.Location = new System.Drawing.Point(18, 238);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(92, 22);
             this.label9.TabIndex = 12;
@@ -155,7 +156,7 @@
             // 
             this.lbl_timein.AutoSize = true;
             this.lbl_timein.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_timein.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lbl_timein.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.lbl_timein.Location = new System.Drawing.Point(20, 260);
             this.lbl_timein.Name = "lbl_timein";
             this.lbl_timein.Size = new System.Drawing.Size(49, 22);
@@ -166,7 +167,7 @@
             // 
             this.Lbl_dept_type.AutoSize = true;
             this.Lbl_dept_type.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_dept_type.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Lbl_dept_type.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Lbl_dept_type.Location = new System.Drawing.Point(20, 183);
             this.Lbl_dept_type.Name = "Lbl_dept_type";
             this.Lbl_dept_type.Size = new System.Drawing.Size(135, 22);
@@ -177,7 +178,7 @@
             // 
             this.Lbl_department.AutoSize = true;
             this.Lbl_department.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_department.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Lbl_department.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Lbl_department.Location = new System.Drawing.Point(20, 205);
             this.Lbl_department.Name = "Lbl_department";
             this.Lbl_department.Size = new System.Drawing.Size(49, 22);
@@ -188,7 +189,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label3.Location = new System.Drawing.Point(19, 118);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 22);
@@ -199,7 +200,7 @@
             // 
             this.lbl_name.AutoSize = true;
             this.lbl_name.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lbl_name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.lbl_name.Location = new System.Drawing.Point(20, 141);
             this.lbl_name.Name = "lbl_name";
             this.lbl_name.Size = new System.Drawing.Size(49, 22);
@@ -210,7 +211,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label8.Location = new System.Drawing.Point(19, 18);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(69, 22);
@@ -221,12 +222,12 @@
             // 
             this.labelname.AutoSize = true;
             this.labelname.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.labelname.Location = new System.Drawing.Point(19, 54);
             this.labelname.Name = "labelname";
-            this.labelname.Size = new System.Drawing.Size(76, 22);
+            this.labelname.Size = new System.Drawing.Size(41, 22);
             this.labelname.TabIndex = 12;
-            this.labelname.Text = "ID.NO :";
+            this.labelname.Text = "ID :";
             // 
             // label7
             // 
@@ -234,13 +235,14 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label7.Location = new System.Drawing.Point(572, 47);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(238, 25);
             this.label7.TabIndex = 14;
             this.label7.Text = "BODY TEMPERATURE";
             this.label7.UseWaitCursor = true;
+            this.label7.Click += new System.EventHandler(this.Label7_Click);
             // 
             // guna2CircleButton3
             // 
@@ -312,10 +314,10 @@
             this.Cb_cameraList.HoverState.Parent = this.Cb_cameraList;
             this.Cb_cameraList.ItemHeight = 30;
             this.Cb_cameraList.ItemsAppearance.Parent = this.Cb_cameraList;
-            this.Cb_cameraList.Location = new System.Drawing.Point(59, 47);
+            this.Cb_cameraList.Location = new System.Drawing.Point(33, 47);
             this.Cb_cameraList.Name = "Cb_cameraList";
             this.Cb_cameraList.ShadowDecoration.Parent = this.Cb_cameraList;
-            this.Cb_cameraList.Size = new System.Drawing.Size(229, 36);
+            this.Cb_cameraList.Size = new System.Drawing.Size(279, 36);
             this.Cb_cameraList.TabIndex = 23;
             this.Cb_cameraList.SelectedIndexChanged += new System.EventHandler(this.Cb_cameraList_SelectedIndexChanged);
             // 
@@ -325,47 +327,28 @@
             this.guna2Panel1.BorderRadius = 5;
             this.guna2Panel1.Controls.Add(this.Qr_cam_scan);
             this.guna2Panel1.FillColor = System.Drawing.Color.White;
-            this.guna2Panel1.Location = new System.Drawing.Point(59, 89);
+            this.guna2Panel1.Location = new System.Drawing.Point(33, 86);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Depth = 10;
             this.guna2Panel1.ShadowDecoration.Enabled = true;
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(229, 229);
+            this.guna2Panel1.Size = new System.Drawing.Size(279, 232);
             this.guna2Panel1.TabIndex = 20;
-            // 
-            // Qr_cam_scan
-            // 
-            this.Qr_cam_scan.InitialImage = global::AGPMS_application.Properties.Resources.Disable_scanner;
-            this.Qr_cam_scan.Location = new System.Drawing.Point(11, 9);
-            this.Qr_cam_scan.Name = "Qr_cam_scan";
-            this.Qr_cam_scan.Size = new System.Drawing.Size(208, 210);
-            this.Qr_cam_scan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Qr_cam_scan.TabIndex = 0;
-            this.Qr_cam_scan.TabStop = false;
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(84, 321);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(55, 321);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(208, 23);
+            this.label2.Padding = new System.Windows.Forms.Padding(10, 8, 10, 8);
+            this.label2.Size = new System.Drawing.Size(228, 39);
             this.label2.TabIndex = 22;
             this.label2.Text = "QR CODE SCANNER";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // user_img
-            // 
-            this.user_img.Image = global::AGPMS_application.Properties.Resources.profile_user;
-            this.user_img.Location = new System.Drawing.Point(344, 47);
-            this.user_img.Name = "user_img";
-            this.user_img.Size = new System.Drawing.Size(207, 204);
-            this.user_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.user_img.TabIndex = 0;
-            this.user_img.TabStop = false;
             // 
             // Scan_timer
             // 
@@ -387,6 +370,7 @@
             // 
             this.Lbl_temp2.AutoSize = true;
             this.Lbl_temp2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_temp2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Lbl_temp2.Location = new System.Drawing.Point(596, 86);
             this.Lbl_temp2.Name = "Lbl_temp2";
             this.Lbl_temp2.Size = new System.Drawing.Size(193, 70);
@@ -394,11 +378,46 @@
             this.Lbl_temp2.Text = "00.00";
             this.Lbl_temp2.TextChanged += new System.EventHandler(this.Lbl_temp2_TextChanged);
             // 
+            // Qr_cam_scan
+            // 
+            this.Qr_cam_scan.InitialImage = global::AGPMS_application.Properties.Resources.Disable_scanner;
+            this.Qr_cam_scan.Location = new System.Drawing.Point(12, 11);
+            this.Qr_cam_scan.Name = "Qr_cam_scan";
+            this.Qr_cam_scan.Size = new System.Drawing.Size(252, 211);
+            this.Qr_cam_scan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Qr_cam_scan.TabIndex = 0;
+            this.Qr_cam_scan.TabStop = false;
+            // 
+            // user_img
+            // 
+            this.user_img.Image = global::AGPMS_application.Properties.Resources.People_search_amico__1_;
+            this.user_img.Location = new System.Drawing.Point(344, 47);
+            this.user_img.Name = "user_img";
+            this.user_img.Size = new System.Drawing.Size(207, 204);
+            this.user_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.user_img.TabIndex = 0;
+            this.user_img.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.label1.Location = new System.Drawing.Point(41, 437);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(209, 80);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "\" There are no shortcuts to\r\n   any place worth going \"\r\n\r\nBEVERLY STILLS";
+            this.label1.UseWaitCursor = true;
+            // 
             // Entry_monitor_Controller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Lbl_temp2);
             this.Controls.Add(this.Cb_cameraList);
             this.Controls.Add(this.guna2Panel1);
@@ -455,5 +474,6 @@
         private System.Windows.Forms.Timer Reload_tempval;
         private System.Windows.Forms.Timer Camera_status;
         public System.Windows.Forms.Label Lbl_temp2;
+        private System.Windows.Forms.Label label1;
     }
 }

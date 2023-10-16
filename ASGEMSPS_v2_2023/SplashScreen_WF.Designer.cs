@@ -37,6 +37,9 @@
             this.Load_system = new System.Windows.Forms.Timer(this.components);
             this.lbl_process = new System.Windows.Forms.Label();
             this.progressBar = new Guna.UI2.WinForms.Guna2ProgressBar();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2DragControl1
@@ -94,12 +97,36 @@
             this.progressBar.Location = new System.Drawing.Point(-1, 543);
             this.progressBar.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar.Name = "progressBar";
-            this.progressBar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(188)))), ((int)(((byte)(196)))));
-            this.progressBar.ProgressColor2 = System.Drawing.Color.DodgerBlue;
+            this.progressBar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.progressBar.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.progressBar.ShadowDecoration.Parent = this.progressBar;
             this.progressBar.Size = new System.Drawing.Size(601, 17);
             this.progressBar.TabIndex = 0;
             this.progressBar.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AGPMS_application.Properties.Resources.college_campus_amico;
+            this.pictureBox1.Location = new System.Drawing.Point(65, 68);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(474, 404);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Silver;
+            this.label1.Location = new System.Drawing.Point(540, 625);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(47, 18);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "v1.0.1";
             // 
             // SplashScreen_WF
             // 
@@ -108,6 +135,8 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(600, 665);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbl_process);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.progressBar);
@@ -121,6 +150,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashScreen_WF";
             this.Load += new System.EventHandler(this.SplashScreen_WF_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -135,5 +165,7 @@
         private System.Windows.Forms.Timer Load_system;
         private System.Windows.Forms.Label lbl_process;
         private Guna.UI2.WinForms.Guna2ProgressBar progressBar;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

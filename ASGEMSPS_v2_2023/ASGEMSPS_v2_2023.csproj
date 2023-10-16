@@ -405,6 +405,32 @@
   <ItemGroup>
     <None Include="Resources\error2.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\People search-amico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\People search-amico1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\college campus-amico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\High School-amico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Security-pana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Temperature Measurement-amico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secure Server-amico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\People search-amico %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -136,8 +136,17 @@
   <data name="close1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-close-22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-close-22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_search_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_search_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="High School-amico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\High School-amico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="error" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,6 +163,9 @@
   <data name="FulllogoAGPMS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FulllogoAGPMS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Secure Server-amico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Secure Server-amico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,11 +178,14 @@
   <data name="icons8_cancel_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_cancel_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="People search-amico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\People search-amico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Security-pana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Security-pana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="security guard " type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\security guard .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,14 +196,23 @@
   <data name="profile user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profile user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="People search-amico1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\People search-amico1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Disable scanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Disable scanner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ASGEMSPS_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ASGEMSPS_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BodyPlus_Infrarot-Thermometer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BodyPlus_Infrarot-Thermometer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Temperature Measurement-amico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Temperature Measurement-amico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="college campus-amico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\college campus-amico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="thermometers" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\thermometers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,6 +223,9 @@
   <data name="admin35" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\admin35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ASGEMSPS_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASGEMSPS_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="close-15" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close-15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -208,7 +235,7 @@
   <data name="blue-heade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue-heade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="error2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\error2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="People search-amico (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\People search-amico (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

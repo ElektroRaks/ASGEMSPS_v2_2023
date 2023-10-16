@@ -82,7 +82,7 @@
             this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton3.HoverState.Parent = this.guna2CircleButton3;
             this.guna2CircleButton3.Location = new System.Drawing.Point(444, 171);
-            this.guna2CircleButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CircleButton3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CircleButton3.Name = "guna2CircleButton3";
             this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton3.ShadowDecoration.Parent = this.guna2CircleButton3;
@@ -98,7 +98,7 @@
             this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton2.HoverState.Parent = this.guna2CircleButton2;
             this.guna2CircleButton2.Location = new System.Drawing.Point(292, 171);
-            this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton2.ShadowDecoration.Parent = this.guna2CircleButton2;
@@ -149,12 +149,12 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.panel1.Controls.Add(this.lbl_usertype);
             this.panel1.Controls.Add(this.lbl_Name);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(727, 57);
             this.panel1.TabIndex = 15;
@@ -254,7 +254,7 @@
             this.Btn_refreshscanner.Image = global::AGPMS_application.Properties.Resources.refresh;
             this.Btn_refreshscanner.ImageSize = new System.Drawing.Size(15, 15);
             this.Btn_refreshscanner.Location = new System.Drawing.Point(679, 59);
-            this.Btn_refreshscanner.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_refreshscanner.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_refreshscanner.Name = "Btn_refreshscanner";
             this.Btn_refreshscanner.PressedState.Image = global::AGPMS_application.Properties.Resources.refresh;
             this.Btn_refreshscanner.PressedState.ImageSize = new System.Drawing.Size(16, 16);
@@ -283,7 +283,7 @@
             this.Controls.Add(this.lbl_info);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ScanBodyTemp_WF";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ScanBodyTemp_WF";
